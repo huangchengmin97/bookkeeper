@@ -1,0 +1,2 @@
+22:04:02.437 [Builder-OrderedExecutor-1-0] ERROR org.apache.bookkeeper.client.LedgerHandle - Closing ledger 1 due to WriteException: Write failed on bookie
+22:04:02.446 [bk-test-OrderedScheduler-1-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L1 E30

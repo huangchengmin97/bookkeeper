@@ -1,0 +1,83 @@
+21:32:17.905 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie7770294883143006291test/current/lastMark (this is okay if it is the first time starting this bookie
+21:32:18.327 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie2913877457915590108test/current/lastMark (this is okay if it is the first time starting this bookie
+21:32:18.628 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie7491897090084959432test/current/lastMark (this is okay if it is the first time starting this bookie
+21:32:19.251 [BookKeeperClientWorker-OrderedExecutor-0-0] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Cannot connect to 127.0.0.1:42731 as endpoint resolution failed (probably bookie is down) err org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:42731, bookie does not exist or it is not running
+21:32:19.255 [BookKeeperClientWorker-OrderedExecutor-0-0] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Could not connect to bookie: null/127.0.0.1:42731, current state CONNECTING : 
+org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:42731, bookie does not exist or it is not running
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:63) ~[classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connect(PerChannelBookieClient.java:533) [classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connectIfNeededAndDoOp(PerChannelBookieClient.java:665) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:121) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:116) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.addEntry(BookieClientImpl.java:329) [classes/:?]
+	at org.apache.bookkeeper.client.PendingAddOp.sendWriteRequest(PendingAddOp.java:152) [classes/:?]
+	at org.apache.bookkeeper.client.PendingAddOp.safeRun(PendingAddOp.java:278) [classes/:?]
+	at org.apache.bookkeeper.common.util.SafeRunnable.run(SafeRunnable.java:36) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.bookkeeper.client.BKException$BKBookieHandleNotAvailableException: Bookie handle is not available
+	at org.apache.bookkeeper.discover.ZKRegistrationClient.getBookieServiceInfo(ZKRegistrationClient.java:248) ~[classes/:?]
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:43) ~[classes/:?]
+	... 12 more
+java.lang.Exception: replaceBookie 2,{foo=[B@1a8b135a}
+	at org.apache.bookkeeper.client.GenericEnsemblePlacementPolicyTest$CustomEnsemblePlacementPolicy.replaceBookie(GenericEnsemblePlacementPolicyTest.java:76)
+	at org.apache.bookkeeper.client.BookieWatcherImpl.replaceBookie(BookieWatcherImpl.java:317)
+	at org.apache.bookkeeper.client.EnsembleUtils.replaceBookiesInEnsemble(EnsembleUtils.java:71)
+	at org.apache.bookkeeper.client.LedgerHandle.lambda$ensembleChangeLoop$2(LedgerHandle.java:1935)
+	at org.apache.bookkeeper.client.MetadataUpdateLoop.writeLoop(MetadataUpdateLoop.java:134)
+	at org.apache.bookkeeper.client.MetadataUpdateLoop.run(MetadataUpdateLoop.java:123)
+	at org.apache.bookkeeper.client.LedgerHandle.ensembleChangeLoop(LedgerHandle.java:1954)
+	at org.apache.bookkeeper.client.LedgerHandle.handleBookieFailure(LedgerHandle.java:1903)
+	at org.apache.bookkeeper.client.PendingAddOp.writeComplete(PendingAddOp.java:378)
+	at org.apache.bookkeeper.proto.BookieClientImpl$1.safeRun(BookieClientImpl.java:295)
+	at org.apache.bookkeeper.common.util.SafeRunnable.run(SafeRunnable.java:36)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+21:32:19.851 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie8614874693728860962test/current/lastMark (this is okay if it is the first time starting this bookie
+21:32:20.510 [Time-limited test] ERROR org.apache.bookkeeper.client.LedgerCreateOp - Not enough bookies to create ledger with ensembleSize=1, writeQuorumSize=1 and ackQuorumSize=1
+21:32:20.737 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie2127669123872929136test/current/lastMark (this is okay if it is the first time starting this bookie
+21:32:21.053 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie1882750811666585002test/current/lastMark (this is okay if it is the first time starting this bookie
+21:32:21.370 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie5938188367398928156test/current/lastMark (this is okay if it is the first time starting this bookie
+21:32:21.839 [BookKeeperClientWorker-OrderedExecutor-0-0] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Cannot connect to 127.0.0.1:44065 as endpoint resolution failed (probably bookie is down) err org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:44065, bookie does not exist or it is not running
+21:32:21.839 [BookKeeperClientWorker-OrderedExecutor-0-0] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Could not connect to bookie: null/127.0.0.1:44065, current state CONNECTING : 
+org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:44065, bookie does not exist or it is not running
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:63) ~[classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connect(PerChannelBookieClient.java:533) [classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connectIfNeededAndDoOp(PerChannelBookieClient.java:665) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:121) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:116) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.addEntry(BookieClientImpl.java:329) [classes/:?]
+	at org.apache.bookkeeper.client.PendingAddOp.sendWriteRequest(PendingAddOp.java:152) [classes/:?]
+	at org.apache.bookkeeper.client.PendingAddOp.safeRun(PendingAddOp.java:278) [classes/:?]
+	at org.apache.bookkeeper.common.util.SafeRunnable.run(SafeRunnable.java:36) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.bookkeeper.client.BKException$BKBookieHandleNotAvailableException: Bookie handle is not available
+	at org.apache.bookkeeper.discover.ZKRegistrationClient.getBookieServiceInfo(ZKRegistrationClient.java:248) ~[classes/:?]
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:43) ~[classes/:?]
+	... 12 more
+java.lang.Exception: replaceBookie 2,{foo=[B@1a8b135a}
+	at org.apache.bookkeeper.client.GenericEnsemblePlacementPolicyTest$CustomEnsemblePlacementPolicy.replaceBookie(GenericEnsemblePlacementPolicyTest.java:76)
+	at org.apache.bookkeeper.client.BookieWatcherImpl.replaceBookie(BookieWatcherImpl.java:317)
+	at org.apache.bookkeeper.client.EnsembleUtils.replaceBookiesInEnsemble(EnsembleUtils.java:71)
+	at org.apache.bookkeeper.client.LedgerHandle.lambda$ensembleChangeLoop$2(LedgerHandle.java:1935)
+	at org.apache.bookkeeper.client.MetadataUpdateLoop.writeLoop(MetadataUpdateLoop.java:134)
+	at org.apache.bookkeeper.client.MetadataUpdateLoop.run(MetadataUpdateLoop.java:123)
+	at org.apache.bookkeeper.client.LedgerHandle.ensembleChangeLoop(LedgerHandle.java:1954)
+	at org.apache.bookkeeper.client.LedgerHandle.handleBookieFailure(LedgerHandle.java:1903)
+	at org.apache.bookkeeper.client.PendingAddOp.writeComplete(PendingAddOp.java:378)
+	at org.apache.bookkeeper.proto.BookieClientImpl$1.safeRun(BookieClientImpl.java:295)
+	at org.apache.bookkeeper.common.util.SafeRunnable.run(SafeRunnable.java:36)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+21:32:22.443 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie4304013192619165650test/current/lastMark (this is okay if it is the first time starting this bookie
+21:32:22.736 [BKClientMetaDataPollScheduler-0] ERROR org.apache.bookkeeper.client.BookieInfoReader - Reading bookie info from bookie 127.0.0.1:39045 failed due to ClientClosedException: BookKeeper client is closed
+21:32:33.102 [Time-limited test] ERROR org.apache.bookkeeper.client.LedgerCreateOp - Not enough bookies to create ledger with ensembleSize=1, writeQuorumSize=1 and ackQuorumSize=1

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.bookkeeper.meta.LedgerManagerIteratorTest
+-------------------------------------------------------------------------------
+Tests run: 44, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 29.024 s - in org.apache.bookkeeper.meta.LedgerManagerIteratorTest

@@ -1,0 +1,2 @@
+20:57:57.531 [main] ERROR org.apache.bookkeeper.bookie.IndexPersistenceMgr - Dead fileinfo(CachedFileInfo(ledger=25,refCount=-57007,closed=true,id=1965445467)) forced out of cache (write:true, read:true). It must have been double-released somewhere.
+20:57:57.537 [main] ERROR org.apache.bookkeeper.bookie.IndexPersistenceMgr - Dead fileinfo(CachedFileInfo(ledger=135,refCount=-57007,closed=true,id=1987375157)) forced out of cache (write:true, read:true). It must have been double-released somewhere.

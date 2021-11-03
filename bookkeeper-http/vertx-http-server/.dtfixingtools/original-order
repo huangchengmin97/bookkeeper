@@ -1,0 +1,4 @@
+org.apache.bookkeeper.http.vertx.TestVertxHttpServer.testStartBasicHttpServer
+org.apache.bookkeeper.http.vertx.TestVertxHttpServer.testHttpMethodsWithBody
+org.apache.bookkeeper.http.vertx.TestVertxHttpServer.testHttpMethods
+org.apache.bookkeeper.http.vertx.TestVertxHttpServer.testStartMetricsServiceOnRouterPath

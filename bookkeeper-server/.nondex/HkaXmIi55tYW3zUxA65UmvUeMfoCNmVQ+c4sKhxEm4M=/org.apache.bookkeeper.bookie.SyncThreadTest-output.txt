@@ -1,0 +1,26 @@
+21:00:04.611 [SyncThread-1-1] ERROR org.apache.bookkeeper.bookie.SyncThread - No writeable ledger directories
+org.apache.bookkeeper.bookie.LedgerDirsManager$NoWritableLedgerDirException: Disk full error in sync thread
+	at org.apache.bookkeeper.bookie.SyncThreadTest$8.checkpoint(SyncThreadTest.java:248) ~[test-classes/:?]
+	at org.apache.bookkeeper.bookie.SyncThread.checkpoint(SyncThread.java:152) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.SyncThread.lambda$doCheckpoint$0(SyncThread.java:99) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+21:00:04.969 [SyncThread-4-1] ERROR org.apache.bookkeeper.bookie.SyncThread - Exception in SyncThread
+java.lang.RuntimeException: Fatal error in sync thread
+	at org.apache.bookkeeper.bookie.SyncThreadTest$6.checkpoint(SyncThreadTest.java:216) ~[test-classes/:?]
+	at org.apache.bookkeeper.bookie.SyncThread.checkpoint(SyncThread.java:152) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.SyncThread.lambda$doCheckpoint$0(SyncThread.java:99) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]

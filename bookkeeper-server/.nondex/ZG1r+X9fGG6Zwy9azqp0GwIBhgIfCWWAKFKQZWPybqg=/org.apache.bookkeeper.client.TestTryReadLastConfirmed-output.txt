@@ -1,0 +1,327 @@
+18:48:26.938 [Time-limited test] ERROR org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl - Failed to initialize DNS Resolver org.apache.bookkeeper.net.ScriptBasedMapping, used default subnet resolver 
+java.lang.RuntimeException: No network topology script is found when using script based DNS resolver.
+	at org.apache.bookkeeper.net.ScriptBasedMapping$RawScriptBasedMapping.validateConf(ScriptBasedMapping.java:163) ~[classes/:?]
+	at org.apache.bookkeeper.net.AbstractDNSToSwitchMapping.setConf(AbstractDNSToSwitchMapping.java:81) ~[classes/:?]
+	at org.apache.bookkeeper.net.ScriptBasedMapping.setConf(ScriptBasedMapping.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:265) [classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:80) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.initializeEnsemblePlacementPolicy(BookKeeper.java:581) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:505) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeperTestClient.<init>(BookKeeperTestClient.java:51) [test-classes/:?]
+	at org.apache.bookkeeper.test.BookKeeperClusterTestCase.startBKCluster(BookKeeperClusterTestCase.java:247) [test-classes/:?]
+	at org.apache.bookkeeper.test.BookKeeperClusterTestCase.setUp(BookKeeperClusterTestCase.java:160) [test-classes/:?]
+	at org.apache.bookkeeper.test.BookKeeperClusterTestCase.setUp(BookKeeperClusterTestCase.java:145) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+18:48:27.383 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie2813020707906782988test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:27.795 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie9071815567824710692test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:28.092 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie6466169371240730390test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:28.396 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie2600905512641371850test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:28.733 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie5542582399386691357test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:29.032 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie8172391432466153379test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:29.918 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Cannot connect to 127.0.0.1:39833 as endpoint resolution failed (probably bookie is down) err org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:39833, bookie does not exist or it is not running
+18:48:29.919 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Could not connect to bookie: null/127.0.0.1:39833, current state CONNECTING : 
+org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:39833, bookie does not exist or it is not running
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:63) ~[classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connect(PerChannelBookieClient.java:533) [classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connectIfNeededAndDoOp(PerChannelBookieClient.java:665) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:121) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:116) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:509) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:495) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:489) [classes/:?]
+	at org.apache.bookkeeper.client.TryReadLastConfirmedOp.initiate(TryReadLastConfirmedOp.java:62) [classes/:?]
+	at org.apache.bookkeeper.client.LedgerHandle.asyncTryReadLastConfirmed(LedgerHandle.java:1472) [classes/:?]
+	at org.apache.bookkeeper.client.TestTryReadLastConfirmed.testTryReadLACWhenAllBookiesDown(TestTryReadLastConfirmed.java:171) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.bookkeeper.client.BKException$BKBookieHandleNotAvailableException: Bookie handle is not available
+	at org.apache.bookkeeper.discover.ZKRegistrationClient.getBookieServiceInfo(ZKRegistrationClient.java:248) ~[classes/:?]
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:43) ~[classes/:?]
+	... 24 more
+18:48:29.920 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Cannot connect to 127.0.0.1:33889 as endpoint resolution failed (probably bookie is down) err org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:33889, bookie does not exist or it is not running
+18:48:29.921 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Could not connect to bookie: null/127.0.0.1:33889, current state CONNECTING : 
+org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:33889, bookie does not exist or it is not running
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:63) ~[classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connect(PerChannelBookieClient.java:533) [classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connectIfNeededAndDoOp(PerChannelBookieClient.java:665) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:121) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:116) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:509) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:495) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:489) [classes/:?]
+	at org.apache.bookkeeper.client.TryReadLastConfirmedOp.initiate(TryReadLastConfirmedOp.java:62) [classes/:?]
+	at org.apache.bookkeeper.client.LedgerHandle.asyncTryReadLastConfirmed(LedgerHandle.java:1472) [classes/:?]
+	at org.apache.bookkeeper.client.TestTryReadLastConfirmed.testTryReadLACWhenAllBookiesDown(TestTryReadLastConfirmed.java:171) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.bookkeeper.client.BKException$BKBookieHandleNotAvailableException: Bookie handle is not available
+	at org.apache.bookkeeper.discover.ZKRegistrationClient.getBookieServiceInfo(ZKRegistrationClient.java:248) ~[classes/:?]
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:43) ~[classes/:?]
+	... 24 more
+18:48:29.922 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Cannot connect to 127.0.0.1:39333 as endpoint resolution failed (probably bookie is down) err org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:39333, bookie does not exist or it is not running
+18:48:29.922 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Could not connect to bookie: null/127.0.0.1:39333, current state CONNECTING : 
+org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:39333, bookie does not exist or it is not running
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:63) ~[classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connect(PerChannelBookieClient.java:533) [classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connectIfNeededAndDoOp(PerChannelBookieClient.java:665) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:121) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:116) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:509) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:495) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:489) [classes/:?]
+	at org.apache.bookkeeper.client.TryReadLastConfirmedOp.initiate(TryReadLastConfirmedOp.java:62) [classes/:?]
+	at org.apache.bookkeeper.client.LedgerHandle.asyncTryReadLastConfirmed(LedgerHandle.java:1472) [classes/:?]
+	at org.apache.bookkeeper.client.TestTryReadLastConfirmed.testTryReadLACWhenAllBookiesDown(TestTryReadLastConfirmed.java:171) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.bookkeeper.client.BKException$BKBookieHandleNotAvailableException: Bookie handle is not available
+	at org.apache.bookkeeper.discover.ZKRegistrationClient.getBookieServiceInfo(ZKRegistrationClient.java:248) ~[classes/:?]
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:43) ~[classes/:?]
+	... 24 more
+18:48:32.548 [Time-limited test] ERROR org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl - Failed to initialize DNS Resolver org.apache.bookkeeper.net.ScriptBasedMapping, used default subnet resolver 
+java.lang.RuntimeException: No network topology script is found when using script based DNS resolver.
+	at org.apache.bookkeeper.net.ScriptBasedMapping$RawScriptBasedMapping.validateConf(ScriptBasedMapping.java:163) ~[classes/:?]
+	at org.apache.bookkeeper.net.AbstractDNSToSwitchMapping.setConf(AbstractDNSToSwitchMapping.java:81) ~[classes/:?]
+	at org.apache.bookkeeper.net.ScriptBasedMapping.setConf(ScriptBasedMapping.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:265) [classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:80) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.initializeEnsemblePlacementPolicy(BookKeeper.java:581) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:505) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeperTestClient.<init>(BookKeeperTestClient.java:51) [test-classes/:?]
+	at org.apache.bookkeeper.test.BookKeeperClusterTestCase.startBKCluster(BookKeeperClusterTestCase.java:247) [test-classes/:?]
+	at org.apache.bookkeeper.test.BookKeeperClusterTestCase.setUp(BookKeeperClusterTestCase.java:160) [test-classes/:?]
+	at org.apache.bookkeeper.test.BookKeeperClusterTestCase.setUp(BookKeeperClusterTestCase.java:145) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+18:48:32.575 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie6474784125992599673test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:32.883 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie1132167264833607449test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:33.178 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie4831177450262649668test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:33.476 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie7328840466990189581test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:33.785 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie7545179391886174330test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:34.078 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie5629919672896480313test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:39.504 [Time-limited test] ERROR org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl - Failed to initialize DNS Resolver org.apache.bookkeeper.net.ScriptBasedMapping, used default subnet resolver 
+java.lang.RuntimeException: No network topology script is found when using script based DNS resolver.
+	at org.apache.bookkeeper.net.ScriptBasedMapping$RawScriptBasedMapping.validateConf(ScriptBasedMapping.java:163) ~[classes/:?]
+	at org.apache.bookkeeper.net.AbstractDNSToSwitchMapping.setConf(AbstractDNSToSwitchMapping.java:81) ~[classes/:?]
+	at org.apache.bookkeeper.net.ScriptBasedMapping.setConf(ScriptBasedMapping.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:265) [classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:80) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.initializeEnsemblePlacementPolicy(BookKeeper.java:581) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:505) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeperTestClient.<init>(BookKeeperTestClient.java:51) [test-classes/:?]
+	at org.apache.bookkeeper.test.BookKeeperClusterTestCase.startBKCluster(BookKeeperClusterTestCase.java:247) [test-classes/:?]
+	at org.apache.bookkeeper.test.BookKeeperClusterTestCase.setUp(BookKeeperClusterTestCase.java:160) [test-classes/:?]
+	at org.apache.bookkeeper.test.BookKeeperClusterTestCase.setUp(BookKeeperClusterTestCase.java:145) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+18:48:39.540 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie691479038517084883test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:39.836 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie5567027563845549896test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:40.126 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie5173811203205140926test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:40.410 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie9182909290647929398test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:40.721 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie1816248995671193885test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:41.028 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie202515726741271637test/current/lastMark (this is okay if it is the first time starting this bookie
+18:48:41.649 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Cannot connect to 127.0.0.1:35751 as endpoint resolution failed (probably bookie is down) err org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:35751, bookie does not exist or it is not running
+18:48:41.650 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Could not connect to bookie: null/127.0.0.1:35751, current state CONNECTING : 
+org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:35751, bookie does not exist or it is not running
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:63) ~[classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connect(PerChannelBookieClient.java:533) [classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connectIfNeededAndDoOp(PerChannelBookieClient.java:665) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:121) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:116) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:509) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:495) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:489) [classes/:?]
+	at org.apache.bookkeeper.client.TryReadLastConfirmedOp.initiate(TryReadLastConfirmedOp.java:62) [classes/:?]
+	at org.apache.bookkeeper.client.LedgerHandle.asyncTryReadLastConfirmed(LedgerHandle.java:1472) [classes/:?]
+	at org.apache.bookkeeper.client.TestTryReadLastConfirmed.testTryReadLaCWhenSomeBookiesDown(TestTryReadLastConfirmed.java:129) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.bookkeeper.client.BKException$BKBookieHandleNotAvailableException: Bookie handle is not available
+	at org.apache.bookkeeper.discover.ZKRegistrationClient.getBookieServiceInfo(ZKRegistrationClient.java:248) ~[classes/:?]
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:43) ~[classes/:?]
+	... 24 more
+18:48:41.651 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Cannot connect to 127.0.0.1:35165 as endpoint resolution failed (probably bookie is down) err org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:35165, bookie does not exist or it is not running
+18:48:41.651 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Could not connect to bookie: null/127.0.0.1:35165, current state CONNECTING : 
+org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:35165, bookie does not exist or it is not running
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:63) ~[classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connect(PerChannelBookieClient.java:533) [classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connectIfNeededAndDoOp(PerChannelBookieClient.java:665) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:121) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:116) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:509) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:495) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:489) [classes/:?]
+	at org.apache.bookkeeper.client.TryReadLastConfirmedOp.initiate(TryReadLastConfirmedOp.java:62) [classes/:?]
+	at org.apache.bookkeeper.client.LedgerHandle.asyncTryReadLastConfirmed(LedgerHandle.java:1472) [classes/:?]
+	at org.apache.bookkeeper.client.TestTryReadLastConfirmed.testTryReadLaCWhenSomeBookiesDown(TestTryReadLastConfirmed.java:129) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.bookkeeper.client.BKException$BKBookieHandleNotAvailableException: Bookie handle is not available
+	at org.apache.bookkeeper.discover.ZKRegistrationClient.getBookieServiceInfo(ZKRegistrationClient.java:248) ~[classes/:?]
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:43) ~[classes/:?]
+	... 24 more
+18:48:42.253 [pool-157-thread-1] ERROR org.apache.zookeeper.server.NIOServerCnxnFactory - Thread Thread[pool-157-thread-1,5,FailOnTimeoutGroup] died
+java.lang.NullPointerException: null
+	at org.apache.bookkeeper.bookie.EntryLoggerAllocator.closePreAllocateLog(EntryLoggerAllocator.java:191) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+18:48:42.500 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Cannot connect to 127.0.0.1:42359 as endpoint resolution failed (probably bookie is down) err org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:42359, bookie does not exist or it is not running
+18:48:42.501 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Could not connect to bookie: null/127.0.0.1:42359, current state CONNECTING : 
+org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:42359, bookie does not exist or it is not running
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:63) ~[classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connect(PerChannelBookieClient.java:533) [classes/:?]
+	at org.apache.bookkeeper.proto.PerChannelBookieClient.connectIfNeededAndDoOp(PerChannelBookieClient.java:665) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:121) [classes/:?]
+	at org.apache.bookkeeper.proto.DefaultPerChannelBookieClientPool.obtain(DefaultPerChannelBookieClientPool.java:116) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:509) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:495) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieClientImpl.readEntry(BookieClientImpl.java:489) [classes/:?]
+	at org.apache.bookkeeper.client.TryReadLastConfirmedOp.initiate(TryReadLastConfirmedOp.java:62) [classes/:?]
+	at org.apache.bookkeeper.client.LedgerHandle.asyncTryReadLastConfirmed(LedgerHandle.java:1472) [classes/:?]
+	at org.apache.bookkeeper.client.TestTryReadLastConfirmed.testTryReadLaCWhenSomeBookiesDown(TestTryReadLastConfirmed.java:129) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.bookkeeper.client.BKException$BKBookieHandleNotAvailableException: Bookie handle is not available
+	at org.apache.bookkeeper.discover.ZKRegistrationClient.getBookieServiceInfo(ZKRegistrationClient.java:248) ~[classes/:?]
+	at org.apache.bookkeeper.client.DefaultBookieAddressResolver.resolve(DefaultBookieAddressResolver.java:43) ~[classes/:?]
+	... 24 more
+18:48:42.504 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Cannot connect to 127.0.0.1:35165 as endpoint resolution failed (probably bookie is down) err org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:35165, bookie does not exist or it is not running
+18:48:43.096 [pool-171-thread-1] ERROR org.apache.zookeeper.server.NIOServerCnxnFactory - Thread Thread[pool-171-thread-1,5,FailOnTimeoutGroup] died
+java.lang.NullPointerException: null
+	at org.apache.bookkeeper.bookie.EntryLoggerAllocator.closePreAllocateLog(EntryLoggerAllocator.java:191) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+18:48:43.213 [pool-150-thread-1] ERROR org.apache.zookeeper.server.NIOServerCnxnFactory - Thread Thread[pool-150-thread-1,5,FailOnTimeoutGroup] died
+java.lang.NullPointerException: null
+	at org.apache.bookkeeper.bookie.EntryLoggerAllocator.closePreAllocateLog(EntryLoggerAllocator.java:191) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+18:48:43.321 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Cannot connect to 127.0.0.1:42359 as endpoint resolution failed (probably bookie is down) err org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:42359, bookie does not exist or it is not running
+18:48:43.327 [Time-limited test] ERROR org.apache.bookkeeper.proto.PerChannelBookieClient - Cannot connect to 127.0.0.1:35751 as endpoint resolution failed (probably bookie is down) err org.apache.bookkeeper.proto.BookieAddressResolver$BookieIdNotResolvedException: Cannot resolve bookieId 127.0.0.1:35751, bookie does not exist or it is not running
+18:48:44.389 [pool-164-thread-1] ERROR org.apache.zookeeper.server.NIOServerCnxnFactory - Thread Thread[pool-164-thread-1,5,FailOnTimeoutGroup] died
+java.lang.NullPointerException: null
+	at org.apache.bookkeeper.bookie.EntryLoggerAllocator.closePreAllocateLog(EntryLoggerAllocator.java:191) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+18:48:44.500 [pool-178-thread-1] ERROR org.apache.zookeeper.server.NIOServerCnxnFactory - Thread Thread[pool-178-thread-1,5,FailOnTimeoutGroup] died
+java.lang.NullPointerException: null
+	at org.apache.bookkeeper.bookie.EntryLoggerAllocator.closePreAllocateLog(EntryLoggerAllocator.java:191) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+18:48:44.613 [pool-185-thread-1] ERROR org.apache.zookeeper.server.NIOServerCnxnFactory - Thread Thread[pool-185-thread-1,5,FailOnTimeoutGroup] died
+java.lang.NullPointerException: null
+	at org.apache.bookkeeper.bookie.EntryLoggerAllocator.closePreAllocateLog(EntryLoggerAllocator.java:191) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]

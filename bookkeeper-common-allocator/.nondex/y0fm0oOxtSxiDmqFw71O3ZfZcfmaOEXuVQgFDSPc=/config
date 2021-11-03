@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/bookkeeper/bookkeeper-common-allocator/.nondex
+nondexJarDir=/home/ch61/bookkeeper/bookkeeper-common-allocator/.nondex
+nondexExecid=y0fm0oOxtSxiDmqFw71O3ZfZcfmaOEXuVQgFDSPc=
+nondexLogging=CONFIG
+test=

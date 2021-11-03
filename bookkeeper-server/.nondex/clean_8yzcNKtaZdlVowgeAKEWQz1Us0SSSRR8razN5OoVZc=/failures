@@ -1,0 +1,2 @@
+org.apache.bookkeeper.bookie.CompactionByBytesTest#testMinorCompactionWithMaxTimeMillis
+org.apache.bookkeeper.bookie.CompactionByEntriesTest#testMinorCompactionWithMaxTimeMillis

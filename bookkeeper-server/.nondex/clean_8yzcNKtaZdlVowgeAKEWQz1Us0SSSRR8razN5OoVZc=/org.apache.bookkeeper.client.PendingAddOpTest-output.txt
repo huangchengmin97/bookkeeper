@@ -1,0 +1,1 @@
+16:46:43.842 [main] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L0 E-1

@@ -1,0 +1,7 @@
+17:20:20.589 [Builder-OrderedExecutor-1-0] ERROR org.apache.bookkeeper.client.LedgerOpenOp - Provided passwd does not match that in metadata
+17:20:20.700 [Builder-OrderedExecutor-1-0] ERROR org.apache.bookkeeper.client.LedgerHandle - Closing ledger 1 due to LedgerFencedException: Ledger has been fenced off. Some other client must have opened it to read
+17:20:20.701 [bk-test-OrderedScheduler-1-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L1 E2
+17:20:20.703 [Builder-OrderedExecutor-1-0] ERROR org.apache.bookkeeper.client.LedgerHandle - Closing ledger 1 due to LedgerFencedException: Ledger has been fenced off. Some other client must have opened it to read
+17:20:20.775 [Builder-OrderedExecutor-1-0] ERROR org.apache.bookkeeper.client.LedgerOpenOp - Provided digest does not match that in metadata
+17:20:20.897 [main] ERROR org.apache.bookkeeper.client.LedgerHandleAdv - Trying to re-add duplicate entryid:0
+17:20:20.897 [main] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L1234 E0

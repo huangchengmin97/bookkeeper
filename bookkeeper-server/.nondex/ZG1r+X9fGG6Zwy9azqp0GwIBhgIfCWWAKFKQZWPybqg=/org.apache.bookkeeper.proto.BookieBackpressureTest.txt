@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.bookkeeper.proto.BookieBackpressureTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 65.245 s - in org.apache.bookkeeper.proto.BookieBackpressureTest

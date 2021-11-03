@@ -1,0 +1,8 @@
+org.apache.bookkeeper.common.allocator.impl.ByteBufAllocatorBuilderTest.testOomUnpooledDirect
+org.apache.bookkeeper.common.allocator.impl.ByteBufAllocatorBuilderTest.testOomWithFallbackAndNoMoreHeap
+org.apache.bookkeeper.common.allocator.impl.ByteBufAllocatorBuilderTest.testUnpooled
+org.apache.bookkeeper.common.allocator.impl.ByteBufAllocatorBuilderTest.testOomWithFallback
+org.apache.bookkeeper.common.allocator.impl.ByteBufAllocatorBuilderTest.testOomUnpooledWithHeap
+org.apache.bookkeeper.common.allocator.impl.ByteBufAllocatorBuilderTest.testPooled
+org.apache.bookkeeper.common.allocator.impl.ByteBufAllocatorBuilderTest.testOomWithException
+org.apache.bookkeeper.common.allocator.impl.ByteBufAllocatorBuilderTest.testPooledWithDefaultAllocator

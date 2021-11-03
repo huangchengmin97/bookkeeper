@@ -1,0 +1,1 @@
+19:24:59.304 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/junit793439494578993187/dbLedgerStorageCheckpointTest/current/lastMark (this is okay if it is the first time starting this bookie

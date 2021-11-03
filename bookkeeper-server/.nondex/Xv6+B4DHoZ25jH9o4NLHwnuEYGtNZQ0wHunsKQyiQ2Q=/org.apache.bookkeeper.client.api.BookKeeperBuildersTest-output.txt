@@ -1,0 +1,17 @@
+22:17:30.661 [main] ERROR org.apache.bookkeeper.client.impl.OpenBuilderBase - invalid ledgerId -2882382797 < 0
+22:17:30.673 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid ledgerId -1 < 0. Do not set en explicit value if you want automatic generation
+22:17:30.768 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid ledgerId -2 < 0. Do not set en explicit value if you want automatic generation
+22:17:30.784 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid ackQuorumSize 0 <= 0
+22:17:30.804 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid writeQuorumSize 2 > ensembleSize 0
+22:17:30.865 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid null digestType
+22:17:30.873 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - Not enough bookies to create ledger with ensembleSize=3, writeQuorumSize=2 and ackQuorumSize=1
+22:17:30.887 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid null digestType
+22:17:30.893 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid null password
+22:17:30.915 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid null writeFlags
+22:17:30.920 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid null password
+22:17:30.926 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid writeQuorumSize 2 > ensembleSize 1
+22:17:30.936 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid ackQuorumSize 2 > writeQuorumSize 0
+22:17:30.942 [main] ERROR org.apache.bookkeeper.client.LedgerDeleteOp - invalid ledgerId -1 < 0
+22:17:30.959 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid null customMetadata
+22:17:30.963 [main] ERROR org.apache.bookkeeper.client.LedgerDeleteOp - invalid ledgerId null < 0
+22:17:30.976 [main] ERROR org.apache.bookkeeper.client.LedgerCreateOp - invalid ackQuorumSize 2 > writeQuorumSize 1

@@ -1,0 +1,1 @@
+17:24:44.258 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/book5562195683723749159.ledger.dir/current/lastMark (this is okay if it is the first time starting this bookie

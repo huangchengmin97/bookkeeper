@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.bookkeeper.client.BookKeeperTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 84.708 s - in org.apache.bookkeeper.client.BookKeeperTest

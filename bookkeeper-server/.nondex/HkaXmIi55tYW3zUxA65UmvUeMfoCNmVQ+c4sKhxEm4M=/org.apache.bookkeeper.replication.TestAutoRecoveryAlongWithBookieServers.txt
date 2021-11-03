@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.bookkeeper.replication.TestAutoRecoveryAlongWithBookieServers
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.082 s - in org.apache.bookkeeper.replication.TestAutoRecoveryAlongWithBookieServers

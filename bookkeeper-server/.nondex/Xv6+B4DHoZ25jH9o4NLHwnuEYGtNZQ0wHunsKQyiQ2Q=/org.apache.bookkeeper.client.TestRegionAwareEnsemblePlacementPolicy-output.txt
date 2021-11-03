@@ -1,0 +1,1 @@
+22:01:49.630 [main] ERROR org.apache.bookkeeper.client.RegionAwareEnsemblePlacementPolicy - Not enough 5 bookies are available to form an ensemble : [127.0.0.3:3181, 127.0.0.5:3181, 127.0.0.4:3181, 127.0.0.2:3181].

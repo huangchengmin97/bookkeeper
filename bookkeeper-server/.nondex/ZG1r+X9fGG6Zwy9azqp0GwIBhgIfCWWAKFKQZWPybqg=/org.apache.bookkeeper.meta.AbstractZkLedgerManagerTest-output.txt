@@ -1,0 +1,430 @@
+ScriptEngineManager providers.next(): javax.script.ScriptEngineFactory: Provider jdk.nashorn.api.scripting.NashornScriptEngineFactory not a subtype
+ERROR StatusLogger Could not reconfigure JMX
+ java.lang.LinkageError: loader constraint violation: loader (instance of org/powermock/core/classloader/javassist/JavassistMockClassLoader) previously initiated loading for a different type with name "javax/management/MBeanServer"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+	at org.powermock.core.classloader.javassist.JavassistMockClassLoader.loadUnmockedClass(JavassistMockClassLoader.java:90)
+	at org.powermock.core.classloader.MockClassLoader.loadClassByThisClassLoader(MockClassLoader.java:104)
+	at org.powermock.core.classloader.DeferSupportingClassLoader.loadClass1(DeferSupportingClassLoader.java:147)
+	at org.powermock.core.classloader.DeferSupportingClassLoader.loadClass(DeferSupportingClassLoader.java:98)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at org.apache.logging.log4j.core.jmx.Server.unregisterAllMatching(Server.java:337)
+	at org.apache.logging.log4j.core.jmx.Server.unregisterLoggerContext(Server.java:261)
+	at org.apache.logging.log4j.core.jmx.Server.reregisterMBeansAfterReconfigure(Server.java:165)
+	at org.apache.logging.log4j.core.jmx.Server.reregisterMBeansAfterReconfigure(Server.java:141)
+	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:638)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:700)
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:717)
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:272)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:155)
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:137)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:45)
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:47)
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:30)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:363)
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:388)
+	at org.apache.zookeeper.ZooKeeper.<clinit>(ZooKeeper.java:171)
+	at sun.reflect.GeneratedSerializationConstructorAccessor5.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.objenesis.instantiator.sun.SunReflectionFactoryInstantiator.newInstance(SunReflectionFactoryInstantiator.java:48)
+	at org.objenesis.ObjenesisBase.newInstance(ObjenesisBase.java:73)
+	at org.mockito.internal.creation.instance.ObjenesisInstantiator.newInstance(ObjenesisInstantiator.java:19)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:47)
+	at org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker.createMock(ByteBuddyMockMaker.java:25)
+	at org.powermock.api.mockito.mockmaker.PowerMockMaker.createMock(PowerMockMaker.java:41)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:62)
+	at org.mockito.Mockito.mock(Mockito.java:1908)
+	at org.mockito.Mockito.mock(Mockito.java:1817)
+	at org.apache.bookkeeper.zookeeper.MockZooKeeperTestCase.setup(MockZooKeeperTestCase.java:62)
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManagerTest.setup(AbstractZkLedgerManagerTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.internal.runners.MethodRoadie.runBefores(MethodRoadie.java:133)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:96)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:310)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:131)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.access$100(PowerMockJUnit47RunnerDelegateImpl.java:59)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner$TestExecutorStatement.evaluate(PowerMockJUnit47RunnerDelegateImpl.java:147)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.evaluateStatement(PowerMockJUnit47RunnerDelegateImpl.java:107)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:298)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:218)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:160)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:134)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:136)
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:117)
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:57)
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+18:10:35.903 [main] ERROR org.apache.bookkeeper.meta.AbstractZkLedgerManager - Could not read metadata for ledger: 1635894635895
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for 1635894635895
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$3.processResult(AbstractZkLedgerManager.java:448) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.MockZooKeeperTestCase.lambda$mockZkGetData$3(MockZooKeeperTestCase.java:180) ~[test-classes/:?]
+	at org.mockito.internal.stubbing.StubbedInvocationMatcher.answer(StubbedInvocationMatcher.java:39) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:96) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) [mockito-core-3.0.0.jar:?]
+	at org.apache.zookeeper.ZooKeeper$MockitoMock$1920798801.getData(Unknown Source) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager.readLedgerMetadata(AbstractZkLedgerManager.java:435) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.readLedgerMetadata$accessor$HRLxUZIO(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470$auxiliary$j9d5WaE2.call(Unknown Source) [classes/:?]
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:152) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:43) [mockito-core-3.0.0.jar:?]
+	at org.mockito.Answers.answer(Answers.java:100) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:103) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) [mockito-core-3.0.0.jar:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.readLedgerMetadata(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager.readLedgerMetadata(AbstractZkLedgerManager.java:430) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.readLedgerMetadata$accessor$HRLxUZIO(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470$auxiliary$3noBaOe6.call(Unknown Source) [classes/:?]
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:152) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:43) [mockito-core-3.0.0.jar:?]
+	at org.mockito.Answers.answer(Answers.java:100) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:103) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) [mockito-core-3.0.0.jar:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.readLedgerMetadata(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManagerTest.testReadLedgerMetadataException(AbstractZkLedgerManagerTest.java:398) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:326) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:89) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:97) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:310) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:131) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.access$100(PowerMockJUnit47RunnerDelegateImpl.java:59) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner$TestExecutorStatement.evaluate(PowerMockJUnit47RunnerDelegateImpl.java:147) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.evaluateStatement(PowerMockJUnit47RunnerDelegateImpl.java:107) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:298) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:218) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:160) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:134) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:136) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:117) [powermock-module-junit4-common-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:57) [powermock-module-junit4-common-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.runners.Suite.runChild(Suite.java:128) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+18:10:36.112 [main] ERROR org.apache.bookkeeper.meta.AbstractZkLedgerManager - Could not parse ledger metadata for ledger: 1635894636101. Stat object is null
+18:10:36.228 [main] ERROR org.apache.bookkeeper.meta.AbstractZkLedgerManager - Could not create node for ledger 1635894636224
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for 1635894636224
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$1.processResult(AbstractZkLedgerManager.java:308) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.MockZooKeeperTestCase.lambda$mockZkUtilsAsyncCreateFullPathOptimistic$0(MockZooKeeperTestCase.java:98) ~[test-classes/:?]
+	at org.mockito.internal.stubbing.StubbedInvocationMatcher.answer(StubbedInvocationMatcher.java:39) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:96) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) [mockito-core-3.0.0.jar:?]
+	at org.powermock.api.mockito.invocation.MockHandlerAdaptor.performIntercept(MockHandlerAdaptor.java:64) [powermock-api-mockito2-2.0.2.jar:2.0.2]
+	at org.powermock.api.mockito.invocation.MockitoMethodInvocationControl.invoke(MockitoMethodInvocationControl.java:93) [powermock-api-mockito2-2.0.2.jar:2.0.2]
+	at org.powermock.core.MockGateway.doMethodCall(MockGateway.java:186) [powermock-core-2.0.2.jar:2.0.2]
+	at org.powermock.core.MockGateway.doMethodCall(MockGateway.java:168) [powermock-core-2.0.2.jar:2.0.2]
+	at org.powermock.core.MockGateway.methodCall(MockGateway.java:145) [powermock-core-2.0.2.jar:2.0.2]
+	at org.apache.bookkeeper.util.ZkUtils.asyncCreateFullPathOptimistic(ZkUtils.java) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager.createLedgerMetadata(AbstractZkLedgerManager.java:323) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.createLedgerMetadata$accessor$HRLxUZIO(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470$auxiliary$APKiWzUi.call(Unknown Source) [classes/:?]
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:152) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:43) [mockito-core-3.0.0.jar:?]
+	at org.mockito.Answers.answer(Answers.java:100) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:103) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) [mockito-core-3.0.0.jar:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.createLedgerMetadata(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManagerTest.testCreateLedgerMetadataException(AbstractZkLedgerManagerTest.java:214) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:326) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:89) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:97) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:310) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:131) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.access$100(PowerMockJUnit47RunnerDelegateImpl.java:59) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner$TestExecutorStatement.evaluate(PowerMockJUnit47RunnerDelegateImpl.java:147) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.evaluateStatement(PowerMockJUnit47RunnerDelegateImpl.java:107) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:298) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:218) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:160) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:134) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:136) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:117) [powermock-module-junit4-common-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:57) [powermock-module-junit4-common-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.runners.Suite.runChild(Suite.java:128) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+18:10:36.263 [main] ERROR org.apache.bookkeeper.meta.AbstractZkLedgerManager - Could not parse ledger metadata for ledger: 1635894636259
+java.io.IOException: Ledger metadata header corrupt at index 0
+	at org.apache.bookkeeper.meta.LedgerMetadataSerDe.readHeader(LedgerMetadataSerDe.java:107) ~[classes/:?]
+	at org.apache.bookkeeper.meta.LedgerMetadataSerDe.parseConfig(LedgerMetadataSerDe.java:349) ~[classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$3.processResult(AbstractZkLedgerManager.java:463) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.MockZooKeeperTestCase.lambda$mockZkGetData$3(MockZooKeeperTestCase.java:180) ~[test-classes/:?]
+	at org.mockito.internal.stubbing.StubbedInvocationMatcher.answer(StubbedInvocationMatcher.java:39) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:96) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) [mockito-core-3.0.0.jar:?]
+	at org.apache.zookeeper.ZooKeeper$MockitoMock$1920798801.getData(Unknown Source) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager.readLedgerMetadata(AbstractZkLedgerManager.java:435) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.readLedgerMetadata$accessor$HRLxUZIO(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470$auxiliary$j9d5WaE2.call(Unknown Source) [classes/:?]
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:152) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:43) [mockito-core-3.0.0.jar:?]
+	at org.mockito.Answers.answer(Answers.java:100) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:103) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) [mockito-core-3.0.0.jar:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.readLedgerMetadata(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager.readLedgerMetadata(AbstractZkLedgerManager.java:430) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.readLedgerMetadata$accessor$HRLxUZIO(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470$auxiliary$3noBaOe6.call(Unknown Source) [classes/:?]
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:152) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:43) [mockito-core-3.0.0.jar:?]
+	at org.mockito.Answers.answer(Answers.java:100) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:103) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) [mockito-core-3.0.0.jar:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.readLedgerMetadata(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManagerTest.testReadLedgerMetadataDataCorrupted(AbstractZkLedgerManagerTest.java:441) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:326) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:89) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:97) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:310) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:131) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.access$100(PowerMockJUnit47RunnerDelegateImpl.java:59) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner$TestExecutorStatement.evaluate(PowerMockJUnit47RunnerDelegateImpl.java:147) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.evaluateStatement(PowerMockJUnit47RunnerDelegateImpl.java:107) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:298) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:218) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:160) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:134) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:136) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:117) [powermock-module-junit4-common-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:57) [powermock-module-junit4-common-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.runners.Suite.runChild(Suite.java:128) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+18:10:36.365 [main] ERROR org.apache.bookkeeper.meta.AbstractZkLedgerManager - Request to delete ledger 1635894636365 metadata with version set to the initial one
+18:10:36.406 [main] ERROR org.apache.bookkeeper.meta.AbstractZkLedgerManager - Could not read metadata for ledger: 1635894636402
+org.apache.zookeeper.KeeperException$SessionExpiredException: KeeperErrorCode = Session expired for 1635894636402
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:134) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$3.processResult(AbstractZkLedgerManager.java:448) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.MockZooKeeperTestCase.lambda$mockZkGetData$3(MockZooKeeperTestCase.java:180) ~[test-classes/:?]
+	at org.mockito.internal.stubbing.StubbedInvocationMatcher.answer(StubbedInvocationMatcher.java:39) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:96) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) [mockito-core-3.0.0.jar:?]
+	at org.apache.zookeeper.ZooKeeper$MockitoMock$1920798801.getData(Unknown Source) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager.readLedgerMetadata(AbstractZkLedgerManager.java:435) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.readLedgerMetadata$accessor$HRLxUZIO(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470$auxiliary$j9d5WaE2.call(Unknown Source) [classes/:?]
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:152) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:43) [mockito-core-3.0.0.jar:?]
+	at org.mockito.Answers.answer(Answers.java:100) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:103) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) [mockito-core-3.0.0.jar:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.readLedgerMetadata(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$ReadLedgerMetadataTask.run(AbstractZkLedgerManager.java:108) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager.registerLedgerMetadataListener(AbstractZkLedgerManager.java:407) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.registerLedgerMetadataListener$accessor$HRLxUZIO(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470$auxiliary$c2sbRQSV.call(Unknown Source) [classes/:?]
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:152) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:43) [mockito-core-3.0.0.jar:?]
+	at org.mockito.Answers.answer(Answers.java:100) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:103) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) [mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) [mockito-core-3.0.0.jar:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManager$MockitoMock$1907469470.registerLedgerMetadataListener(Unknown Source) [classes/:?]
+	at org.apache.bookkeeper.meta.AbstractZkLedgerManagerTest.testLedgerMetadataListenerOnRetries(AbstractZkLedgerManagerTest.java:710) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:326) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:89) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:97) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:310) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:131) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.access$100(PowerMockJUnit47RunnerDelegateImpl.java:59) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner$TestExecutorStatement.evaluate(PowerMockJUnit47RunnerDelegateImpl.java:147) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.evaluateStatement(PowerMockJUnit47RunnerDelegateImpl.java:107) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:298) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:218) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:160) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:134) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44) [junit-4.12.jar:4.12]
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:136) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:117) [powermock-module-junit4-common-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:57) [powermock-module-junit4-common-2.0.2.jar:2.0.2]
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59) [powermock-module-junit4-2.0.2.jar:2.0.2]
+	at org.junit.runners.Suite.runChild(Suite.java:128) [junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:27) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157) [surefire-junit47-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]

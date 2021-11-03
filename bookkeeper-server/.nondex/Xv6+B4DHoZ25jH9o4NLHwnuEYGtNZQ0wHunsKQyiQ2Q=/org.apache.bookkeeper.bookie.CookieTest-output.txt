@@ -1,0 +1,136 @@
+22:35:01.224 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie6759699877442653219tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:01.229 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie4244846937449231701tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:01.229 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie4357354411961336511tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:02.146 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie3982214329044579665tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:02.598 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie4013178593842730812tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:02.598 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie8179577721114317948tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:02.598 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie846880083279410126tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:02.776 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - There are directories without a cookie, and this is neither a new environment, nor is storage expansion enabled. Empty directories are [/tmp/cookie4013178593842730812tmpdir/current]
+22:35:03.224 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie7918032085111900446tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:03.224 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie381960007124153644tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:03.224 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie7389324408366589115tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:03.845 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie2703366227124576885tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:03.859 [BookieJournal-15004] ERROR org.apache.bookkeeper.bookie.Journal - I/O exception in Journal thread!
+java.nio.channels.ClosedByInterruptException: null
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[?:1.8.0_292]
+	at sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:777) ~[?:1.8.0_292]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:758) ~[?:1.8.0_292]
+	at org.apache.bookkeeper.bookie.JournalChannel.<init>(JournalChannel.java:192) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.JournalChannel.<init>(JournalChannel.java:124) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.Journal.run(Journal.java:963) [classes/:?]
+22:35:03.991 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Either not all local directories have cookies or directories being added  newly are not empty. Directories missing cookie file are: [] New directories that are not empty are: [/tmp/cookie2461910848645246373tmpdir/current]
+22:35:04.008 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Either not all local directories have cookies or directories being added  newly are not empty. Directories missing cookie file are: [] New directories that are not empty are: [/tmp/cookie2461910848645246373tmpdir/current, /tmp/cookie6240032382001205418tmpdir/current]
+22:35:04.470 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie3522794585098387612tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:05.225 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie3756935975802542451tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:05.225 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie3585578247224216572tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:05.865 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie2903643482954459482tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:05.865 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie5377161925930952455tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:05.865 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie7991600731152770504tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:05.890 [BookieJournal-15007] ERROR io.netty.util.ResourceLeakDetector - LEAK: ByteBuf.release() was not called before it's garbage-collected. See https://netty.io/wiki/reference-counted-objects.html for more information.
+Recent access records: 
+Created at:
+	io.netty.buffer.PooledByteBufAllocator.newDirectBuffer(PooledByteBufAllocator.java:402)
+	io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:188)
+	io.netty.buffer.AbstractByteBufAllocator.directBuffer(AbstractByteBufAllocator.java:179)
+	org.apache.bookkeeper.bookie.BufferedChannel.<init>(BufferedChannel.java:94)
+	org.apache.bookkeeper.bookie.BufferedChannel.<init>(BufferedChannel.java:85)
+	org.apache.bookkeeper.bookie.BufferedChannel.<init>(BufferedChannel.java:79)
+	org.apache.bookkeeper.bookie.Journal.lambda$getBufferedChannelBuilder$0(Journal.java:1162)
+	org.apache.bookkeeper.bookie.JournalChannel.<init>(JournalChannel.java:189)
+	org.apache.bookkeeper.bookie.JournalChannel.<init>(JournalChannel.java:124)
+	org.apache.bookkeeper.bookie.Journal.run(Journal.java:963)
+22:35:06.045 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - There are directories without a cookie, and this is neither a new environment, nor is storage expansion enabled. Empty directories are [/tmp/cookie3290135031246438370tmpdir/current]
+22:35:06.506 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie7073963934992898648tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:06.506 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie5015269142269409231tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:06.506 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie5055007496588881784tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:07.130 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie766679195591423924tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:07.130 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie7810542666738273952tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:07.130 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie2282245295850022323tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:07.909 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Directory layout version is less than 3, upgrade needed
+22:35:07.909 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Error accessing cookie on disks
+java.io.IOException: Directory layout version is less than 3, upgrade needed
+	at org.apache.bookkeeper.bookie.BookieImpl.checkDirectoryStructure(BookieImpl.java:194) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.verifyAndGetMissingDirs(BookieImpl.java:346) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.checkEnvironmentWithStorageExpansion(BookieImpl.java:415) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.checkEnvironment(BookieImpl.java:229) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.<init>(BookieImpl.java:688) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.<init>(BookieImpl.java:605) [classes/:?]
+	at org.apache.bookkeeper.bookie.CookieTest.testV2dataWithHostNameAsBookieID(CookieTest.java:684) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:35:08.368 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie7787624169118480244tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:08.368 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie6532247802352066617tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:08.368 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie333124726367184119tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:08.996 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie363134754546132489tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:08.996 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie7284106742149242303tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:08.996 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie2291265652905110477tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:09.618 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie857965451006812598tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:09.787 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie3935509141942644142tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:09.787 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie3740761839448835162tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:10.502 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie8402879650663295993tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:10.654 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie8402879650663295993tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:11.562 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Directory layout version is less than 3, upgrade needed
+22:35:11.562 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Error accessing cookie on disks
+java.io.IOException: Directory layout version is less than 3, upgrade needed
+	at org.apache.bookkeeper.bookie.BookieImpl.checkDirectoryStructure(BookieImpl.java:194) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.verifyAndGetMissingDirs(BookieImpl.java:346) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.checkEnvironmentWithStorageExpansion(BookieImpl.java:415) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.checkEnvironment(BookieImpl.java:229) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.<init>(BookieImpl.java:688) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.<init>(BookieImpl.java:605) [classes/:?]
+	at org.apache.bookkeeper.bookie.CookieTest.testV1data(CookieTest.java:579) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:35:12.032 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Directory layout version is less than 3, upgrade needed
+22:35:12.032 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Error accessing cookie on disks
+java.io.IOException: Directory layout version is less than 3, upgrade needed
+	at org.apache.bookkeeper.bookie.BookieImpl.checkDirectoryStructure(BookieImpl.java:194) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.verifyAndGetMissingDirs(BookieImpl.java:346) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.checkEnvironmentWithStorageExpansion(BookieImpl.java:415) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.checkEnvironment(BookieImpl.java:229) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.<init>(BookieImpl.java:688) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.<init>(BookieImpl.java:605) [classes/:?]
+	at org.apache.bookkeeper.bookie.CookieTest.testV2data(CookieTest.java:556) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:35:12.495 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie323623005839654255tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:12.496 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie4727729520111415348tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:12.647 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - There are directories without a cookie, and this is neither a new environment, nor is storage expansion enabled. Empty directories are [/tmp/cookie323623005839654255tmpdir/current]
+22:35:13.096 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie309534935528323499tmpdir/current/lastMark (this is okay if it is the first time starting this bookie
+22:35:13.096 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/cookie6880710110141459146tmpdir/current/lastMark (this is okay if it is the first time starting this bookie

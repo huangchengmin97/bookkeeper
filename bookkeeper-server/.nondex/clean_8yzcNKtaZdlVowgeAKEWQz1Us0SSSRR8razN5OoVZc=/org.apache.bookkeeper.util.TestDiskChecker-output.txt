@@ -1,0 +1,2 @@
+18:08:42.363 [main] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp : 30779371520, Used space fraction: 0.44091052 > threshold 0.22045529.
+18:08:42.392 [main] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck9100269787113548067test : 30779367424, Used space fraction: 0.44091058 > threshold 0.4309106.

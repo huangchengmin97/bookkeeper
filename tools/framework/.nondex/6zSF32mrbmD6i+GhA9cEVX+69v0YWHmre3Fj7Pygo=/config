@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/bookkeeper/tools/framework/.nondex
+nondexJarDir=/home/ch61/bookkeeper/tools/framework/.nondex
+nondexExecid=6zSF32mrbmD6i+GhA9cEVX+69v0YWHmre3Fj7Pygo=
+nondexLogging=CONFIG
+test=

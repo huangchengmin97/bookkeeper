@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.bookkeeper.tls.TestTLS
+-------------------------------------------------------------------------------
+Tests run: 182, Failures: 0, Errors: 0, Skipped: 12, Time elapsed: 739.029 s - in org.apache.bookkeeper.tls.TestTLS

@@ -1,0 +1,2 @@
+org.apache.bookkeeper.common.util.affinity.impl.IsolatedProcessorsTest.testParseProcessors
+org.apache.bookkeeper.common.util.affinity.impl.CpuInfoTest.testParseCpuInfo

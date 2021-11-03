@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/bookkeeper/bookkeeper-http/vertx-http-server/.nondex
+nondexJarDir=/home/ch61/bookkeeper/bookkeeper-http/vertx-http-server/.nondex
+nondexExecid=tVr46fd2ySeGLYobBwN9sBBv3gRlKHCZ29Rd7VYqLqs=
+nondexLogging=CONFIG
+test=

@@ -1,0 +1,10 @@
+17:45:45.662 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/stateManger6526711285813845159test-readonly/current/lastMark (this is okay if it is the first time starting this bookie
+17:45:45.745 [BookieJournal-0] ERROR org.apache.bookkeeper.bookie.Journal - I/O exception in Journal thread!
+java.nio.channels.ClosedByInterruptException: null
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[?:1.8.0_292]
+	at sun.nio.ch.FileChannelImpl.force(FileChannelImpl.java:392) ~[?:1.8.0_292]
+	at org.apache.bookkeeper.bookie.BufferedChannel.forceWrite(BufferedChannel.java:241) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.JournalChannel.forceWrite(JournalChannel.java:288) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.JournalChannel.<init>(JournalChannel.java:190) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.JournalChannel.<init>(JournalChannel.java:124) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.Journal.run(Journal.java:963) [classes/:?]

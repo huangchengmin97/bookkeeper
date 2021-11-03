@@ -1,0 +1,2 @@
+19:03:49.144 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookieserver4781427092095545465test/current/lastMark (this is okay if it is the first time starting this bookie
+19:04:02.964 [Time-limited test-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!

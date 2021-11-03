@@ -1,0 +1,1 @@
+17:48:48.693 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bkTest730762968667767709.dir/current/lastMark (this is okay if it is the first time starting this bookie

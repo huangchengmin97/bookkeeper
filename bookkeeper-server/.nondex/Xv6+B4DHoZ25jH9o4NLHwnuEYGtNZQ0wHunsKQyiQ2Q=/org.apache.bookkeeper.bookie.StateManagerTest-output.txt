@@ -1,0 +1,1 @@
+22:43:00.297 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/stateManger1666676204493273240test-readonly/current/lastMark (this is okay if it is the first time starting this bookie

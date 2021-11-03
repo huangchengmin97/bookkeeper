@@ -1,0 +1,907 @@
+22:41:13.724 [Time-limited test-SendThread()] ERROR org.apache.zookeeper.client.StaticHostProvider - Unable to resolve address: ledgers:2181
+java.net.UnknownHostException: ledgers: Temporary failure in name resolution
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_292]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_292]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) [zookeeper-3.6.2.jar:3.6.2]
+22:41:14.839 [Time-limited test-SendThread(ledgers:2181)] ERROR org.apache.zookeeper.client.StaticHostProvider - Unable to resolve address: ledgers:2181
+java.net.UnknownHostException: ledgers
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_292]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) [zookeeper-3.6.2.jar:3.6.2]
+22:41:15.940 [Time-limited test-SendThread(ledgers:2181)] ERROR org.apache.zookeeper.client.StaticHostProvider - Unable to resolve address: ledgers:2181
+java.net.UnknownHostException: ledgers
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_292]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) [zookeeper-3.6.2.jar:3.6.2]
+22:41:17.042 [Time-limited test-SendThread(ledgers:2181)] ERROR org.apache.zookeeper.client.StaticHostProvider - Unable to resolve address: ledgers:2181
+java.net.UnknownHostException: ledgers
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_292]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) [zookeeper-3.6.2.jar:3.6.2]
+22:41:18.143 [Time-limited test-SendThread(ledgers:2181)] ERROR org.apache.zookeeper.client.StaticHostProvider - Unable to resolve address: ledgers:2181
+java.net.UnknownHostException: ledgers
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_292]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) [zookeeper-3.6.2.jar:3.6.2]
+22:41:19.245 [Time-limited test-SendThread(ledgers:2181)] ERROR org.apache.zookeeper.client.StaticHostProvider - Unable to resolve address: ledgers:2181
+java.net.UnknownHostException: ledgers
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_292]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) [zookeeper-3.6.2.jar:3.6.2]
+22:41:20.346 [Time-limited test-SendThread(ledgers:2181)] ERROR org.apache.zookeeper.client.StaticHostProvider - Unable to resolve address: ledgers:2181
+java.net.UnknownHostException: ledgers
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_292]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) [zookeeper-3.6.2.jar:3.6.2]
+22:41:21.447 [Time-limited test-SendThread(ledgers:2181)] ERROR org.apache.zookeeper.client.StaticHostProvider - Unable to resolve address: ledgers:2181
+java.net.UnknownHostException: ledgers
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_292]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) [zookeeper-3.6.2.jar:3.6.2]
+22:41:22.548 [Time-limited test-SendThread(ledgers:2181)] ERROR org.apache.zookeeper.client.StaticHostProvider - Unable to resolve address: ledgers:2181
+java.net.UnknownHostException: ledgers
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_292]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) [zookeeper-3.6.2.jar:3.6.2]
+22:41:23.649 [Time-limited test-SendThread(ledgers:2181)] ERROR org.apache.zookeeper.client.StaticHostProvider - Unable to resolve address: ledgers:2181
+java.net.UnknownHostException: ledgers
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_292]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_292]
+	at org.apache.zookeeper.client.StaticHostProvider$1.getAllByName(StaticHostProvider.java:88) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.resolve(StaticHostProvider.java:141) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.client.StaticHostProvider.next(StaticHostProvider.java:368) [zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1193) [zookeeper-3.6.2.jar:3.6.2]
+22:41:23.851 [Time-limited test] ERROR org.apache.bookkeeper.meta.zk.ZKMetadataDriverBase - Failed to create zookeeper client to ledgers
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase.waitForConnection(ZooKeeperWatcherBase.java:159) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$Builder.build(ZooKeeperClient.java:260) ~[classes/:?]
+	at org.apache.bookkeeper.meta.zk.ZKMetadataDriverBase.initialize(ZKMetadataDriverBase.java:207) [classes/:?]
+	at org.apache.bookkeeper.meta.zk.ZKMetadataBookieDriver.initialize(ZKMetadataBookieDriver.java:60) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.instantiateMetadataDriver(BookieImpl.java:1100) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.<init>(BookieImpl.java:687) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieServer.newBookie(BookieServer.java:150) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieServer.<init>(BookieServer.java:118) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieServer.<init>(BookieServer.java:87) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testInvalidServiceMetadataURICase(BookieInitializationTest.java:1611) [test-classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testInvalidServiceMetadataURI(BookieInitializationTest.java:1582) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:24.178 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/BootupTest7726470576100845174test/current/lastMark.0 (this is okay if it is the first time starting this bookie
+22:41:24.179 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/BootupTest7726470576100845174test/current/lastMark.1 (this is okay if it is the first time starting this bookie
+22:41:24.403 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Cookie for this bookie is not stored in metadata store. Bookie failing to come up
+22:41:24.676 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/DiskCheck1855466438962005676test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:25.036 [Time-limited test] ERROR org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl - Failed to initialize DNS Resolver org.apache.bookkeeper.net.ScriptBasedMapping, used default subnet resolver 
+java.lang.RuntimeException: No network topology script is found when using script based DNS resolver.
+	at org.apache.bookkeeper.net.ScriptBasedMapping$RawScriptBasedMapping.validateConf(ScriptBasedMapping.java:163) ~[classes/:?]
+	at org.apache.bookkeeper.net.AbstractDNSToSwitchMapping.setConf(AbstractDNSToSwitchMapping.java:81) ~[classes/:?]
+	at org.apache.bookkeeper.net.ScriptBasedMapping.setConf(ScriptBasedMapping.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:265) [classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:80) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.initializeEnsemblePlacementPolicy(BookKeeper.java:581) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:505) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:344) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testWithDiskFullAndAbilityToCreateNewIndexFile(BookieInitializationTest.java:1063) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:25.356 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337486848, Used space fraction: 0.44893706 > threshold 0.001.
+22:41:25.386 [Time-limited test] ERROR org.apache.bookkeeper.bookie.LedgerDirsManager - All ledger directories are non writable and no reserved space (9223372036854775807) left.
+org.apache.bookkeeper.bookie.LedgerDirsManager$NoWritableLedgerDirException: All ledger directories are non writable and no reserved space (9223372036854775807) left.
+	at org.apache.bookkeeper.bookie.LedgerDirsManager.getDirsAboveUsableThresholdSize(LedgerDirsManager.java:203) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.LedgerDirsManager.pickRandomWritableDirForNewIndexFile(LedgerDirsManager.java:312) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.IndexPersistenceMgr.getNewLedgerIndexFile(IndexPersistenceMgr.java:235) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.IndexPersistenceMgr.createFileInfoBackingFile(IndexPersistenceMgr.java:152) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.FileInfoBackingCache.loadFileInfo(FileInfoBackingCache.java:76) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.IndexPersistenceMgr.lambda$getFileInfo$2(IndexPersistenceMgr.java:185) ~[classes/:?]
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4853) [guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529) [guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278) [guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155) [guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045) [guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951) [guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4848) [guava-30.0-jre.jar:?]
+	at org.apache.bookkeeper.bookie.IndexPersistenceMgr.getFileInfo(IndexPersistenceMgr.java:191) [classes/:?]
+	at org.apache.bookkeeper.bookie.IndexPersistenceMgr.setMasterKey(IndexPersistenceMgr.java:417) [classes/:?]
+	at org.apache.bookkeeper.bookie.LedgerCacheImpl.setMasterKey(LedgerCacheImpl.java:174) [classes/:?]
+	at org.apache.bookkeeper.bookie.InterleavedLedgerStorage.setMasterKey(InterleavedLedgerStorage.java:321) [classes/:?]
+	at org.apache.bookkeeper.bookie.SortedLedgerStorage.setMasterKey(SortedLedgerStorage.java:166) [classes/:?]
+	at org.apache.bookkeeper.bookie.LedgerDescriptor.create(LedgerDescriptor.java:42) [classes/:?]
+	at org.apache.bookkeeper.bookie.HandleFactoryImpl.getHandle(HandleFactoryImpl.java:48) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl$6.process(BookieImpl.java:849) [classes/:?]
+	at org.apache.bookkeeper.bookie.Journal.scanJournal(Journal.java:840) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.replay(BookieImpl.java:952) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.readJournal(BookieImpl.java:918) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.start(BookieImpl.java:972) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieServer.start(BookieServer.java:154) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testWithDiskFullAndAbilityToCreateNewIndexFile(BookieInitializationTest.java:1087) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:25.388 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Exception while replaying journals, shutting down
+org.apache.bookkeeper.bookie.LedgerDirsManager$NoWritableLedgerDirException: All ledger directories are non writable and no reserved space (9223372036854775807) left.
+	at org.apache.bookkeeper.bookie.LedgerDirsManager.getDirsAboveUsableThresholdSize(LedgerDirsManager.java:203) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.LedgerDirsManager.pickRandomWritableDirForNewIndexFile(LedgerDirsManager.java:312) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.IndexPersistenceMgr.getNewLedgerIndexFile(IndexPersistenceMgr.java:235) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.IndexPersistenceMgr.createFileInfoBackingFile(IndexPersistenceMgr.java:152) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.FileInfoBackingCache.loadFileInfo(FileInfoBackingCache.java:76) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.IndexPersistenceMgr.lambda$getFileInfo$2(IndexPersistenceMgr.java:185) ~[classes/:?]
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4853) ~[guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529) ~[guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278) ~[guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155) ~[guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045) ~[guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951) ~[guava-30.0-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4848) ~[guava-30.0-jre.jar:?]
+	at org.apache.bookkeeper.bookie.IndexPersistenceMgr.getFileInfo(IndexPersistenceMgr.java:191) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.IndexPersistenceMgr.setMasterKey(IndexPersistenceMgr.java:417) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.LedgerCacheImpl.setMasterKey(LedgerCacheImpl.java:174) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.InterleavedLedgerStorage.setMasterKey(InterleavedLedgerStorage.java:321) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.SortedLedgerStorage.setMasterKey(SortedLedgerStorage.java:166) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.LedgerDescriptor.create(LedgerDescriptor.java:42) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.HandleFactoryImpl.getHandle(HandleFactoryImpl.java:48) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl$6.process(BookieImpl.java:849) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.Journal.scanJournal(Journal.java:840) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.replay(BookieImpl.java:952) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.readJournal(BookieImpl.java:918) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.start(BookieImpl.java:972) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieServer.start(BookieServer.java:154) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testWithDiskFullAndAbilityToCreateNewIndexFile(BookieInitializationTest.java:1087) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:25.527 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337486848, Used space fraction: 0.44893706 > threshold 0.001.
+22:41:26.387 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337449984, Used space fraction: 0.44893777 > threshold 0.001.
+22:41:26.546 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337449984, Used space fraction: 0.44893777 > threshold 0.001.
+22:41:27.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337449984, Used space fraction: 0.44893777 > threshold 0.001.
+22:41:27.546 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337449984, Used space fraction: 0.44893777 > threshold 0.001.
+22:41:28.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.bookie.LedgerDirsMonitor - Got IOException while monitoring Dirs
+java.nio.file.NoSuchFileException: /tmp/DiskCheck1855466438962005676test/current
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:1.8.0_292]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_292]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_292]
+	at sun.nio.fs.UnixFileStore.devFor(UnixFileStore.java:57) ~[?:1.8.0_292]
+	at sun.nio.fs.UnixFileStore.<init>(UnixFileStore.java:64) ~[?:1.8.0_292]
+	at sun.nio.fs.LinuxFileStore.<init>(LinuxFileStore.java:44) ~[?:1.8.0_292]
+	at sun.nio.fs.LinuxFileSystemProvider.getFileStore(LinuxFileSystemProvider.java:51) ~[?:1.8.0_292]
+	at sun.nio.fs.LinuxFileSystemProvider.getFileStore(LinuxFileSystemProvider.java:39) ~[?:1.8.0_292]
+	at sun.nio.fs.UnixFileSystemProvider.getFileStore(UnixFileSystemProvider.java:368) ~[?:1.8.0_292]
+	at java.nio.file.Files.getFileStore(Files.java:1461) ~[?:1.8.0_292]
+	at org.apache.bookkeeper.util.DiskChecker.getTotalFreeSpace(DiskChecker.java:187) ~[classes/:?]
+	at org.apache.bookkeeper.util.DiskChecker.getTotalDiskUsage(DiskChecker.java:227) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.LedgerDirsMonitor.check(LedgerDirsMonitor.java:132) ~[classes/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1259) ~[?:1.8.0_292]
+	at org.apache.bookkeeper.bookie.LedgerDirsMonitor.check(LedgerDirsMonitor.java:174) ~[classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:28.594 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie6613025654566631044test0/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:28.595 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie7061984026486154949test1/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:28.595 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie2770481092695956469test2/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:29.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337413120, Used space fraction: 0.44893843 > threshold 0.001.
+22:41:29.656 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie9048270884486410706test1/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:29.930 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie8993468294162817466test2/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:30.357 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie8103681852646601369test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:30.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337417216, Used space fraction: 0.44893837 > threshold 0.001.
+22:41:31.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337425408, Used space fraction: 0.4489382 > threshold 0.001.
+22:41:32.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337425408, Used space fraction: 0.4489382 > threshold 0.001.
+22:41:33.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337425408, Used space fraction: 0.4489382 > threshold 0.001.
+22:41:34.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337425408, Used space fraction: 0.4489382 > threshold 0.001.
+22:41:34.766 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck2995770739337216651test/current : 30337413120, Used space fraction: 0.44893843 > threshold 0.4484893.
+22:41:34.769 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/DiskCheck2995770739337216651test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:35.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337400832, Used space fraction: 0.44893867 > threshold 0.001.
+22:41:35.771 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck2995770739337216651test/current : 30337400832, Used space fraction: 0.44893867 > threshold 0.4484893.
+22:41:36.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337400832, Used space fraction: 0.44893867 > threshold 0.001.
+22:41:36.771 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck2995770739337216651test/current : 30337400832, Used space fraction: 0.44893867 > threshold 0.4484893.
+22:41:37.172 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck792661814494237531test/current : 30337413120, Used space fraction: 0.44893843 > threshold 0.4484893.
+22:41:37.195 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck792661814494237531test/current : 30337413120, Used space fraction: 0.44893843 > threshold 0.4484893.
+22:41:37.206 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck792661814494237531test/current : 30337413120, Used space fraction: 0.44893843 > threshold 0.4484893.
+22:41:37.207 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/DiskCheck792661814494237531test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:37.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337413120, Used space fraction: 0.44893843 > threshold 0.001.
+22:41:37.472 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie8252959860701227997ledger/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:37.474 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Invalid record found with negative length: -1
+22:41:37.474 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Exception while replaying journals, shutting down
+java.io.IOException: Invalid record found with negative length -1
+	at org.apache.bookkeeper.bookie.Journal.scanJournal(Journal.java:825) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.replay(BookieImpl.java:952) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.readJournal(BookieImpl.java:918) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.start(BookieImpl.java:972) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testNegativeLengthEntryBookieShutdown(BookieInitializationTest.java:818) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:37.699 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie5341241782494768957test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:37.741 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Couldn't register bookie with zookeeper, shutting down : 
+java.util.concurrent.ExecutionException: java.io.IOException: org.apache.bookkeeper.bookie.BookieException$MetadataStoreException: mocked exception
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_292]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_292]
+	at org.apache.bookkeeper.bookie.BookieImpl.start(BookieImpl.java:1039) [classes/:?]
+	at org.apache.bookkeeper.proto.BookieServer.start(BookieServer.java:154) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testExitCodeZK_REG_FAIL(BookieInitializationTest.java:317) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: java.io.IOException: org.apache.bookkeeper.bookie.BookieException$MetadataStoreException: mocked exception
+	at org.apache.bookkeeper.bookie.BookieStateManager.doRegisterBookie(BookieStateManager.java:276) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieStateManager.doRegisterBookie(BookieStateManager.java:261) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieStateManager$2.call(BookieStateManager.java:224) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieStateManager$2.call(BookieStateManager.java:220) ~[classes/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	... 1 more
+Caused by: org.apache.bookkeeper.bookie.BookieException$MetadataStoreException: mocked exception
+	at org.apache.bookkeeper.bookie.BookieStateManager.doRegisterBookie(BookieStateManager.java:273) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieStateManager.doRegisterBookie(BookieStateManager.java:261) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieStateManager$2.call(BookieStateManager.java:224) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieStateManager$2.call(BookieStateManager.java:220) ~[classes/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	... 1 more
+22:41:38.020 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie570520089377632002test0/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:38.021 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie5967038812904290553test1/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:38.021 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie6792572763226555863test2/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:38.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337339392, Used space fraction: 0.44893974 > threshold 0.001.
+22:41:39.165 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Dirs: [/tmp/bookie3788632714528350546test/current, /tmp/bookie6196048723080723225test/current, /tmp/bookie3788632714528350546test/current] are in same DiskPartition/FileSystem: / (/dev/mapper/fa21--cs527--009--vg-root)
+22:41:39.287 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Dirs: [/tmp/bookie5442144035735487036test/current, /tmp/bookie5442144035735487036test/current, /tmp/bookie1645239892385505677test/current] are in same DiskPartition/FileSystem: / (/dev/mapper/fa21--cs527--009--vg-root)
+22:41:39.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337335296, Used space fraction: 0.44893986 > threshold 0.001.
+22:41:39.417 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Bookie - Dirs: [/tmp/bookie1494785390979024262test/current, /tmp/bookie1494785390979024262test/current] are in same DiskPartition/FileSystem: / (/dev/mapper/fa21--cs527--009--vg-root)
+22:41:39.722 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie6640329769236866991test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:40.236 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie7068048187537756832test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:40.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337347584, Used space fraction: 0.44893962 > threshold 0.001.
+22:41:41.194 [Time-limited test] ERROR org.apache.bookkeeper.discover.ZKRegistrationManager - BookKeeper metadata doesn't exist in zookeeper. Has the cluster been initialized? Try running bin/bookkeeper shell metaformat
+22:41:41.351 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie2738426684093708124test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:41.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337339392, Used space fraction: 0.44893974 > threshold 0.001.
+22:41:41.604 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie6555452685542595653test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:42.040 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/DiskCheck6681069592506880409test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:42.317 [Time-limited test] ERROR org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl - Failed to initialize DNS Resolver org.apache.bookkeeper.net.ScriptBasedMapping, used default subnet resolver 
+java.lang.RuntimeException: No network topology script is found when using script based DNS resolver.
+	at org.apache.bookkeeper.net.ScriptBasedMapping$RawScriptBasedMapping.validateConf(ScriptBasedMapping.java:163) ~[classes/:?]
+	at org.apache.bookkeeper.net.AbstractDNSToSwitchMapping.setConf(AbstractDNSToSwitchMapping.java:81) ~[classes/:?]
+	at org.apache.bookkeeper.net.ScriptBasedMapping.setConf(ScriptBasedMapping.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:265) [classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:80) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.initializeEnsemblePlacementPolicy(BookKeeper.java:581) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:505) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:344) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testJournalReplayForBookieRestartInReadOnlyMode(BookieInitializationTest.java:210) [test-classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testOneJournalReplayForBookieRestartInReadOnlyMode(BookieInitializationTest.java:167) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:42.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337290240, Used space fraction: 0.44894063 > threshold 0.001.
+22:41:42.411 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck6681069592506880409test/current : 30337290240, Used space fraction: 0.44894063 > threshold 0.001.
+22:41:42.852 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck6681069592506880409test/current : 30337253376, Used space fraction: 0.4489413 > threshold 0.001.
+22:41:43.147 [pool-246-thread-1] ERROR org.apache.zookeeper.server.NIOServerCnxnFactory - Thread Thread[pool-246-thread-1,5,FailOnTimeoutGroup] died
+java.lang.NullPointerException: null
+	at org.apache.bookkeeper.bookie.EntryLoggerAllocator.closePreAllocateLog(EntryLoggerAllocator.java:191) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:43.269 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck6681069592506880409test/current : 30337241088, Used space fraction: 0.44894153 > threshold 0.001.
+22:41:43.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337232896, Used space fraction: 0.4489417 > threshold 0.001.
+22:41:43.542 [pool-253-thread-1] ERROR org.apache.zookeeper.server.NIOServerCnxnFactory - Thread Thread[pool-253-thread-1,5,FailOnTimeoutGroup] died
+java.lang.NullPointerException: null
+	at org.apache.bookkeeper.bookie.EntryLoggerAllocator.closePreAllocateLog(EntryLoggerAllocator.java:191) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:43.665 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck6681069592506880409test/current : 30337232896, Used space fraction: 0.4489417 > threshold 0.001.
+22:41:44.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337286144, Used space fraction: 0.4489407 > threshold 0.001.
+22:41:44.413 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie2409703509894814476test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:44.437 [Time-limited test] ERROR org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl - Failed to initialize DNS Resolver org.apache.bookkeeper.net.ScriptBasedMapping, used default subnet resolver 
+java.lang.RuntimeException: No network topology script is found when using script based DNS resolver.
+	at org.apache.bookkeeper.net.ScriptBasedMapping$RawScriptBasedMapping.validateConf(ScriptBasedMapping.java:163) ~[classes/:?]
+	at org.apache.bookkeeper.net.AbstractDNSToSwitchMapping.setConf(AbstractDNSToSwitchMapping.java:81) ~[classes/:?]
+	at org.apache.bookkeeper.net.ScriptBasedMapping.setConf(ScriptBasedMapping.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:265) [classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:80) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.initializeEnsemblePlacementPolicy(BookKeeper.java:581) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:505) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:344) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeperAdmin.<init>(BookKeeperAdmin.java:161) [classes/:?]
+	at org.apache.bookkeeper.server.http.BKHttpServiceProvider.<init>(BKHttpServiceProvider.java:93) [classes/:?]
+	at org.apache.bookkeeper.server.http.BKHttpServiceProvider.<init>(BKHttpServiceProvider.java:74) [classes/:?]
+	at org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder.build(BKHttpServiceProvider.java:160) [classes/:?]
+	at org.apache.bookkeeper.server.Main.buildBookieServer(Main.java:332) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testIOVertexHTTPServerEndpointForBookieWithPrometheusProvider(BookieInitializationTest.java:1440) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:45.295 [Time-limited test] ERROR org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl - Failed to initialize DNS Resolver org.apache.bookkeeper.net.ScriptBasedMapping, used default subnet resolver 
+java.lang.RuntimeException: No network topology script is found when using script based DNS resolver.
+	at org.apache.bookkeeper.net.ScriptBasedMapping$RawScriptBasedMapping.validateConf(ScriptBasedMapping.java:163) ~[classes/:?]
+	at org.apache.bookkeeper.net.AbstractDNSToSwitchMapping.setConf(AbstractDNSToSwitchMapping.java:81) ~[classes/:?]
+	at org.apache.bookkeeper.net.ScriptBasedMapping.setConf(ScriptBasedMapping.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:265) [classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:80) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.initializeEnsemblePlacementPolicy(BookKeeper.java:581) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:505) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper$Builder.build(BookKeeper.java:306) [classes/:?]
+	at org.apache.bookkeeper.replication.Auditor.createBookKeeperClient(Auditor.java:280) [classes/:?]
+	at org.apache.bookkeeper.replication.AutoRecoveryMain.<init>(AutoRecoveryMain.java:92) [classes/:?]
+	at org.apache.bookkeeper.server.service.AutoRecoveryService.<init>(AutoRecoveryService.java:41) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testAutoRecoveryServiceExceptionHandler(BookieInitializationTest.java:834) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:45.368 [ReplicationWorker] ERROR org.apache.bookkeeper.replication.ReplicationWorker - UnavailableException while replicating fragments
+org.apache.bookkeeper.replication.ReplicationException$UnavailableException: Interrupted while connecting zookeeper
+	at org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager.getLedgerToRereplicate(ZkLedgerUnderreplicationManager.java:613) ~[classes/:?]
+	at org.apache.bookkeeper.replication.ReplicationWorker.rereplicate(ReplicationWorker.java:272) ~[classes/:?]
+	at org.apache.bookkeeper.replication.ReplicationWorker.run(ReplicationWorker.java:238) [classes/:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326) ~[?:1.8.0_292]
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:277) ~[?:1.8.0_292]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase.waitForConnection(ZooKeeperWatcherBase.java:158) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.waitForConnection(ZooKeeperClient.java:336) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooWorker.syncCallWithRetries(ZooWorker.java:134) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.getChildren(ZooKeeperClient.java:1245) ~[classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager$1.getChildren(ZkLedgerUnderreplicationManager.java:147) ~[classes/:?]
+	at org.apache.bookkeeper.util.SubTreeCache.getChildren(SubTreeCache.java:118) ~[classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager.getLedgerToRereplicateFromHierarchy(ZkLedgerUnderreplicationManager.java:550) ~[classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager.getLedgerToRereplicate(ZkLedgerUnderreplicationManager.java:603) ~[classes/:?]
+	... 4 more
+22:41:45.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337269760, Used space fraction: 0.448941 > threshold 0.001.
+22:41:45.424 [AuditorBookie-127.0.0.1:0] ERROR org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl - Failed to initialize DNS Resolver org.apache.bookkeeper.net.ScriptBasedMapping, used default subnet resolver 
+java.lang.RuntimeException: No network topology script is found when using script based DNS resolver.
+	at org.apache.bookkeeper.net.ScriptBasedMapping$RawScriptBasedMapping.validateConf(ScriptBasedMapping.java:163) ~[classes/:?]
+	at org.apache.bookkeeper.net.AbstractDNSToSwitchMapping.setConf(AbstractDNSToSwitchMapping.java:81) ~[classes/:?]
+	at org.apache.bookkeeper.net.ScriptBasedMapping.setConf(ScriptBasedMapping.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:265) [classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:80) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.initializeEnsemblePlacementPolicy(BookKeeper.java:581) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:505) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper$Builder.build(BookKeeper.java:306) [classes/:?]
+	at org.apache.bookkeeper.replication.Auditor.createBookKeeperClient(Auditor.java:280) [classes/:?]
+	at org.apache.bookkeeper.replication.Auditor.createBookKeeperClient(Auditor.java:272) [classes/:?]
+	at org.apache.bookkeeper.replication.Auditor.getBookKeeper(Auditor.java:1231) [classes/:?]
+	at org.apache.bookkeeper.replication.Auditor.checkAllLedgers(Auditor.java:1248) [classes/:?]
+	at org.apache.bookkeeper.replication.Auditor$11.run(Auditor.java:774) [classes/:?]
+	at org.apache.bookkeeper.util.SafeRunnable$1.safeRun(SafeRunnable.java:43) [classes/:?]
+	at org.apache.bookkeeper.common.util.SafeRunnable.run(SafeRunnable.java:36) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_292]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:46.348 [AutoRecoveryDeathWatcher-0] ERROR org.apache.bookkeeper.common.component.ComponentStarter - Triggered exceptionHandler of Component: autorecovery because of Exception in Thread: Thread[AutoRecoveryDeathWatcher-0,5,FailOnTimeoutGroup]
+java.lang.RuntimeException: AutoRecovery is not running any more
+	at org.apache.bookkeeper.replication.AutoRecoveryMain$AutoRecoveryDeathWatcher.run(AutoRecoveryMain.java:234) ~[classes/:?]
+22:41:46.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337269760, Used space fraction: 0.448941 > threshold 0.001.
+22:41:47.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337269760, Used space fraction: 0.448941 > threshold 0.001.
+22:41:48.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337261568, Used space fraction: 0.44894117 > threshold 0.001.
+22:41:49.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337261568, Used space fraction: 0.44894117 > threshold 0.001.
+22:41:50.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337261568, Used space fraction: 0.44894117 > threshold 0.001.
+22:41:51.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337277952, Used space fraction: 0.44894087 > threshold 0.001.
+22:41:52.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337269760, Used space fraction: 0.448941 > threshold 0.001.
+22:41:53.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337269760, Used space fraction: 0.448941 > threshold 0.001.
+22:41:54.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337269760, Used space fraction: 0.448941 > threshold 0.001.
+22:41:55.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337261568, Used space fraction: 0.44894117 > threshold 0.001.
+22:41:56.333 [Time-limited test] ERROR org.apache.bookkeeper.meta.zk.ZKMetadataDriverBase - Failed to create zookeeper client to localhost:43545
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase.waitForConnection(ZooKeeperWatcherBase.java:159) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$Builder.build(ZooKeeperClient.java:260) ~[classes/:?]
+	at org.apache.bookkeeper.meta.zk.ZKMetadataDriverBase.initialize(ZKMetadataDriverBase.java:207) [classes/:?]
+	at org.apache.bookkeeper.meta.zk.ZKMetadataBookieDriver.initialize(ZKMetadataBookieDriver.java:60) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.instantiateMetadataDriver(BookieImpl.java:1100) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.<init>(BookieImpl.java:687) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.<init>(BookieImpl.java:605) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testStartBookieWithoutZKServer(BookieInitializationTest.java:893) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:41:56.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337179648, Used space fraction: 0.44894266 > threshold 0.001.
+22:41:56.623 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie381813992966516346test/current/lastMark.0 (this is okay if it is the first time starting this bookie
+22:41:56.623 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie516152269696059799test/current/lastMark.0 (this is okay if it is the first time starting this bookie
+22:41:56.624 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie381813992966516346test/current/lastMark.1 (this is okay if it is the first time starting this bookie
+22:41:56.624 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie516152269696059799test/current/lastMark.1 (this is okay if it is the first time starting this bookie
+22:41:56.787 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie3758019803084519428test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:57.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337142784, Used space fraction: 0.44894332 > threshold 0.001.
+22:41:58.279 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie3668293617850618566test/current/lastMark (this is okay if it is the first time starting this bookie
+22:41:58.415 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337142784, Used space fraction: 0.44894332 > threshold 0.001.
+22:41:59.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337155072, Used space fraction: 0.44894308 > threshold 0.001.
+22:42:00.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337155072, Used space fraction: 0.44894308 > threshold 0.001.
+22:42:01.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337155072, Used space fraction: 0.44894308 > threshold 0.001.
+22:42:02.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337155072, Used space fraction: 0.44894308 > threshold 0.001.
+22:42:03.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337155072, Used space fraction: 0.44894308 > threshold 0.001.
+22:42:04.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337155072, Used space fraction: 0.44894308 > threshold 0.001.
+22:42:05.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337155072, Used space fraction: 0.44894308 > threshold 0.001.
+22:42:06.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337150976, Used space fraction: 0.4489432 > threshold 0.001.
+22:42:07.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337150976, Used space fraction: 0.4489432 > threshold 0.001.
+22:42:08.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337150976, Used space fraction: 0.4489432 > threshold 0.001.
+22:42:08.960 [BookieStateManagerService-0] ERROR org.apache.bookkeeper.discover.ZKRegistrationManager - ZK exception checking and wait ephemeral znode /ledgerstestRegNodeExistsAfterSessionTimeOut/available/127.0.1.1:0 expired : 
+org.apache.zookeeper.KeeperException$NodeExistsException: KeeperErrorCode = NodeExists for /ledgerstestRegNodeExistsAfterSessionTimeOut/available/127.0.1.1:0
+	at org.apache.bookkeeper.discover.ZKRegistrationManager.checkRegNodeAndWaitExpired(ZKRegistrationManager.java:198) [classes/:?]
+	at org.apache.bookkeeper.discover.ZKRegistrationManager.doRegisterBookie(ZKRegistrationManager.java:264) [classes/:?]
+	at org.apache.bookkeeper.discover.ZKRegistrationManager.registerBookie(ZKRegistrationManager.java:224) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieStateManager.doRegisterBookie(BookieStateManager.java:273) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieStateManager.doRegisterBookie(BookieStateManager.java:261) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieStateManager$2.call(BookieStateManager.java:224) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieStateManager$2.call(BookieStateManager.java:220) [classes/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:42:09.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337146880, Used space fraction: 0.44894326 > threshold 0.001.
+22:42:09.420 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie2517704081902119829exception-handler/current/lastMark (this is okay if it is the first time starting this bookie
+22:42:10.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337126400, Used space fraction: 0.44894361 > threshold 0.001.
+22:42:10.437 [BookieDeathWatcher-15008] ERROR org.apache.bookkeeper.common.component.ComponentStarter - Triggered exceptionHandler of Component: bookie-server because of Exception in Thread: Thread[BookieDeathWatcher-15008,5,FailOnTimeoutGroup]
+java.lang.RuntimeException: Bookie is not running any more
+	at org.apache.bookkeeper.proto.BookieServer$DeathWatcher.run(BookieServer.java:304) ~[classes/:?]
+22:42:10.673 [Time-limited test] ERROR org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl - Failed to initialize DNS Resolver org.apache.bookkeeper.net.ScriptBasedMapping, used default subnet resolver 
+java.lang.RuntimeException: No network topology script is found when using script based DNS resolver.
+	at org.apache.bookkeeper.net.ScriptBasedMapping$RawScriptBasedMapping.validateConf(ScriptBasedMapping.java:163) ~[classes/:?]
+	at org.apache.bookkeeper.net.AbstractDNSToSwitchMapping.setConf(AbstractDNSToSwitchMapping.java:81) ~[classes/:?]
+	at org.apache.bookkeeper.net.ScriptBasedMapping.setConf(ScriptBasedMapping.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:265) [classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:80) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.initializeEnsemblePlacementPolicy(BookKeeper.java:581) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:505) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper$Builder.build(BookKeeper.java:306) [classes/:?]
+	at org.apache.bookkeeper.replication.Auditor.createBookKeeperClient(Auditor.java:280) [classes/:?]
+	at org.apache.bookkeeper.replication.AutoRecoveryMain.<init>(AutoRecoveryMain.java:92) [classes/:?]
+	at org.apache.bookkeeper.server.service.AutoRecoveryService.<init>(AutoRecoveryService.java:41) [classes/:?]
+	at org.apache.bookkeeper.replication.AutoRecoveryMain.buildAutoRecoveryServer(AutoRecoveryMain.java:360) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testIOVertexHTTPServerEndpointForARWithPrometheusProvider(BookieInitializationTest.java:1486) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:42:10.689 [Time-limited test] ERROR org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl - Failed to initialize DNS Resolver org.apache.bookkeeper.net.ScriptBasedMapping, used default subnet resolver 
+java.lang.RuntimeException: No network topology script is found when using script based DNS resolver.
+	at org.apache.bookkeeper.net.ScriptBasedMapping$RawScriptBasedMapping.validateConf(ScriptBasedMapping.java:163) ~[classes/:?]
+	at org.apache.bookkeeper.net.AbstractDNSToSwitchMapping.setConf(AbstractDNSToSwitchMapping.java:81) ~[classes/:?]
+	at org.apache.bookkeeper.net.ScriptBasedMapping.setConf(ScriptBasedMapping.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:265) [classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:80) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.initializeEnsemblePlacementPolicy(BookKeeper.java:581) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:505) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:344) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeperAdmin.<init>(BookKeeperAdmin.java:161) [classes/:?]
+	at org.apache.bookkeeper.server.http.BKHttpServiceProvider.<init>(BKHttpServiceProvider.java:93) [classes/:?]
+	at org.apache.bookkeeper.server.http.BKHttpServiceProvider.<init>(BKHttpServiceProvider.java:74) [classes/:?]
+	at org.apache.bookkeeper.server.http.BKHttpServiceProvider$Builder.build(BKHttpServiceProvider.java:160) [classes/:?]
+	at org.apache.bookkeeper.replication.AutoRecoveryMain.buildAutoRecoveryServer(AutoRecoveryMain.java:370) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testIOVertexHTTPServerEndpointForARWithPrometheusProvider(BookieInitializationTest.java:1486) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:42:10.887 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie8151062937920323764test/current/lastMark (this is okay if it is the first time starting this bookie
+22:42:10.941 [AuditorElector-127.0.1.1:0] ERROR org.apache.bookkeeper.replication.AuditorElector - Exception while performing auditor election
+java.io.IOException: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /ledgerstestIOVertexHTTPServerEndpointForARWithPrometheusProvider/underreplication/auditorelection
+	at org.apache.bookkeeper.meta.ZkLedgerAuditorManager.tryToBecomeAuditor(ZkLedgerAuditorManager.java:146) ~[classes/:?]
+	at org.apache.bookkeeper.replication.AuditorElector$3.run(AuditorElector.java:184) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /ledgerstestIOVertexHTTPServerEndpointForARWithPrometheusProvider/underreplication/auditorelection
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:2561) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.access$3101(ZooKeeperClient.java:70) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$21.call(ZooKeeperClient.java:1068) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$21.call(ZooKeeperClient.java:1062) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooWorker.syncCallWithRetries(ZooWorker.java:140) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.setData(ZooKeeperClient.java:1062) ~[classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerAuditorManager.tryToBecomeAuditor(ZkLedgerAuditorManager.java:117) ~[classes/:?]
+	... 6 more
+22:42:11.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30337110016, Used space fraction: 0.4489439 > threshold 0.001.
+22:42:11.707 [AutoRecoveryDeathWatcher-0] ERROR org.apache.bookkeeper.common.component.ComponentStarter - Triggered exceptionHandler of Component: autorecovery-server because of Exception in Thread: Thread[AutoRecoveryDeathWatcher-0,5,FailOnTimeoutGroup]
+java.lang.RuntimeException: AutoRecovery is not running any more
+	at org.apache.bookkeeper.replication.AutoRecoveryMain$AutoRecoveryDeathWatcher.run(AutoRecoveryMain.java:234) ~[classes/:?]
+22:42:11.973 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookie8304873815428033870ledger/current/lastMark (this is okay if it is the first time starting this bookie
+22:42:11.981 [Time-limited test] ERROR org.apache.bookkeeper.common.component.AbstractLifecycleComponent - Failed to start Component: bookie-server
+java.lang.OutOfMemoryError: Some Injected Exception
+	at org.apache.bookkeeper.bookie.BookieInitializationTest$MockInterleavedLedgerStorage.addEntry(BookieInitializationTest.java:720) ~[test-classes/:?]
+	at org.apache.bookkeeper.bookie.LedgerDescriptorImpl.addEntry(LedgerDescriptorImpl.java:156) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl$6.process(BookieImpl.java:905) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.Journal.scanJournal(Journal.java:840) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.replay(BookieImpl.java:952) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.readJournal(BookieImpl.java:918) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.start(BookieImpl.java:972) ~[classes/:?]
+	at org.apache.bookkeeper.proto.BookieServer.start(BookieServer.java:154) ~[classes/:?]
+	at org.apache.bookkeeper.server.service.BookieService.doStart(BookieService.java:68) ~[classes/:?]
+	at org.apache.bookkeeper.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:83) ~[classes/:?]
+	at org.apache.bookkeeper.common.component.LifecycleComponentStack.lambda$start$4(LifecycleComponentStack.java:144) ~[classes/:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:405) [guava-30.0-jre.jar:?]
+	at org.apache.bookkeeper.common.component.LifecycleComponentStack.start(LifecycleComponentStack.java:144) [classes/:?]
+	at org.apache.bookkeeper.common.component.ComponentStarter.startComponent(ComponentStarter.java:85) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testBookieStartException(BookieInitializationTest.java:772) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:42:11.982 [Time-limited test] ERROR org.apache.bookkeeper.common.component.AbstractLifecycleComponent - Calling uncaughtExceptionHandler
+22:42:11.982 [Time-limited test] ERROR org.apache.bookkeeper.common.component.ComponentStarter - Triggered exceptionHandler of Component: bookie-server because of Exception in Thread: Thread[Time-limited test,5,FailOnTimeoutGroup]
+java.lang.OutOfMemoryError: Some Injected Exception
+	at org.apache.bookkeeper.bookie.BookieInitializationTest$MockInterleavedLedgerStorage.addEntry(BookieInitializationTest.java:720) ~[test-classes/:?]
+	at org.apache.bookkeeper.bookie.LedgerDescriptorImpl.addEntry(LedgerDescriptorImpl.java:156) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl$6.process(BookieImpl.java:905) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.Journal.scanJournal(Journal.java:840) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.replay(BookieImpl.java:952) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.readJournal(BookieImpl.java:918) ~[classes/:?]
+	at org.apache.bookkeeper.bookie.BookieImpl.start(BookieImpl.java:972) ~[classes/:?]
+	at org.apache.bookkeeper.proto.BookieServer.start(BookieServer.java:154) ~[classes/:?]
+	at org.apache.bookkeeper.server.service.BookieService.doStart(BookieService.java:68) ~[classes/:?]
+	at org.apache.bookkeeper.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:83) ~[classes/:?]
+	at org.apache.bookkeeper.common.component.LifecycleComponentStack.lambda$start$4(LifecycleComponentStack.java:144) ~[classes/:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:405) [guava-30.0-jre.jar:?]
+	at org.apache.bookkeeper.common.component.LifecycleComponentStack.start(LifecycleComponentStack.java:144) [classes/:?]
+	at org.apache.bookkeeper.common.component.ComponentStarter.startComponent(ComponentStarter.java:85) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testBookieStartException(BookieInitializationTest.java:772) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:42:12.289 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/DiskCheck8312694184363807333test/current/lastMark.0 (this is okay if it is the first time starting this bookie
+22:42:12.289 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/DiskCheck8312694184363807333test/current/lastMark.1 (this is okay if it is the first time starting this bookie
+22:42:12.289 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/DiskCheck8312694184363807333test/current/lastMark.2 (this is okay if it is the first time starting this bookie
+22:42:12.290 [Time-limited test] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/DiskCheck8312694184363807333test/current/lastMark.3 (this is okay if it is the first time starting this bookie
+22:42:12.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30336942080, Used space fraction: 0.44894695 > threshold 0.001.
+22:42:12.623 [Time-limited test] ERROR org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl - Failed to initialize DNS Resolver org.apache.bookkeeper.net.ScriptBasedMapping, used default subnet resolver 
+java.lang.RuntimeException: No network topology script is found when using script based DNS resolver.
+	at org.apache.bookkeeper.net.ScriptBasedMapping$RawScriptBasedMapping.validateConf(ScriptBasedMapping.java:163) ~[classes/:?]
+	at org.apache.bookkeeper.net.AbstractDNSToSwitchMapping.setConf(AbstractDNSToSwitchMapping.java:81) ~[classes/:?]
+	at org.apache.bookkeeper.net.ScriptBasedMapping.setConf(ScriptBasedMapping.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:265) [classes/:?]
+	at org.apache.bookkeeper.client.RackawareEnsemblePlacementPolicyImpl.initialize(RackawareEnsemblePlacementPolicyImpl.java:80) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.initializeEnsemblePlacementPolicy(BookKeeper.java:581) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:505) [classes/:?]
+	at org.apache.bookkeeper.client.BookKeeper.<init>(BookKeeper.java:344) [classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testJournalReplayForBookieRestartInReadOnlyMode(BookieInitializationTest.java:210) [test-classes/:?]
+	at org.apache.bookkeeper.bookie.BookieInitializationTest.testMultipleJournalReplayForBookieRestartInReadOnlyMode(BookieInitializationTest.java:172) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_292]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_292]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_292]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.apache.bookkeeper.util.LoggerOutput$1.evaluate(LoggerOutput.java:73) [test-classes/:?]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292) [junit-4.12.jar:4.12]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:42:12.722 [AuditorElector-127.0.1.1:0] ERROR org.apache.bookkeeper.meta.ZkLedgerAuditorManager - Exception while deleting myVote:/ledgerstestIOVertexHTTPServerEndpointForARWithPrometheusProvider/underreplication/auditorelection/V_0000000000
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /ledgerstestIOVertexHTTPServerEndpointForARWithPrometheusProvider/underreplication/auditorelection/V_0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ZooKeeper.delete(ZooKeeper.java:2001) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.access$2101(ZooKeeperClient.java:70) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$11.call(ZooKeeperClient.java:773) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$11.call(ZooKeeperClient.java:767) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooWorker.syncCallWithRetries(ZooWorker.java:140) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.delete(ZooKeeperClient.java:767) ~[classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerAuditorManager.close(ZkLedgerAuditorManager.java:179) [classes/:?]
+	at org.apache.bookkeeper.replication.AuditorElector$2.run(AuditorElector.java:158) [classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:42:12.723 [component-shutdown-thread] ERROR org.apache.bookkeeper.meta.ZkLedgerAuditorManager - Exception while deleting myVote:/ledgerstestIOVertexHTTPServerEndpointForARWithPrometheusProvider/underreplication/auditorelection/V_0000000000
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /ledgerstestIOVertexHTTPServerEndpointForARWithPrometheusProvider/underreplication/auditorelection/V_0000000000
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ZooKeeper.delete(ZooKeeper.java:2001) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.access$2101(ZooKeeperClient.java:70) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$11.call(ZooKeeperClient.java:773) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$11.call(ZooKeeperClient.java:767) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooWorker.syncCallWithRetries(ZooWorker.java:140) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.delete(ZooKeeperClient.java:767) ~[classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerAuditorManager.close(ZkLedgerAuditorManager.java:179) ~[classes/:?]
+	at org.apache.bookkeeper.replication.AuditorElector.shutdown(AuditorElector.java:234) ~[classes/:?]
+	at org.apache.bookkeeper.replication.AutoRecoveryMain.shutdown(AutoRecoveryMain.java:151) ~[classes/:?]
+	at org.apache.bookkeeper.replication.AutoRecoveryMain.shutdown(AutoRecoveryMain.java:137) ~[classes/:?]
+	at org.apache.bookkeeper.server.service.AutoRecoveryService.doClose(AutoRecoveryService.java:67) ~[classes/:?]
+	at org.apache.bookkeeper.common.component.AbstractLifecycleComponent.close(AbstractLifecycleComponent.java:123) ~[classes/:?]
+	at org.apache.bookkeeper.common.component.LifecycleComponentStack.lambda$close$6(LifecycleComponentStack.java:154) ~[classes/:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:405) [guava-30.0-jre.jar:?]
+	at org.apache.bookkeeper.common.component.LifecycleComponentStack.close(LifecycleComponentStack.java:154) [classes/:?]
+	at org.apache.bookkeeper.common.component.ComponentStarter$ComponentShutdownHook.run(ComponentStarter.java:47) [classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:42:12.722 [ReplicationWorker] ERROR org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager - Error while checking the state of ledger re-replication
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /ledgerstestIOVertexHTTPServerEndpointForARWithPrometheusProvider/underreplication/disable
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:2256) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.access$2301(ZooKeeperClient.java:70) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$13.call(ZooKeeperClient.java:833) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$13.call(ZooKeeperClient.java:827) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooWorker.syncCallWithRetries(ZooWorker.java:140) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.exists(ZooKeeperClient.java:827) ~[classes/:?]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:2281) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.access$2401(ZooKeeperClient.java:70) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$14.call(ZooKeeperClient.java:854) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$14.call(ZooKeeperClient.java:848) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooWorker.syncCallWithRetries(ZooWorker.java:140) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.exists(ZooKeeperClient.java:848) ~[classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager.isLedgerReplicationEnabled(ZkLedgerUnderreplicationManager.java:726) [classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager.waitIfLedgerReplicationDisabled(ZkLedgerUnderreplicationManager.java:621) [classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager.getLedgerToRereplicate(ZkLedgerUnderreplicationManager.java:602) [classes/:?]
+	at org.apache.bookkeeper.replication.ReplicationWorker.rereplicate(ReplicationWorker.java:272) [classes/:?]
+	at org.apache.bookkeeper.replication.ReplicationWorker.run(ReplicationWorker.java:238) [classes/:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:42:12.725 [ReplicationWorker] ERROR org.apache.bookkeeper.replication.ReplicationWorker - UnavailableException while replicating fragments
+org.apache.bookkeeper.replication.ReplicationException$UnavailableException: Error contacting zookeeper
+	at org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager.isLedgerReplicationEnabled(ZkLedgerUnderreplicationManager.java:731) ~[classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager.waitIfLedgerReplicationDisabled(ZkLedgerUnderreplicationManager.java:621) ~[classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager.getLedgerToRereplicate(ZkLedgerUnderreplicationManager.java:602) ~[classes/:?]
+	at org.apache.bookkeeper.replication.ReplicationWorker.rereplicate(ReplicationWorker.java:272) ~[classes/:?]
+	at org.apache.bookkeeper.replication.ReplicationWorker.run(ReplicationWorker.java:238) [classes/:?]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.68.Final.jar:4.1.68.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+Caused by: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /ledgerstestIOVertexHTTPServerEndpointForARWithPrometheusProvider/underreplication/disable
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:2256) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.access$2301(ZooKeeperClient.java:70) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$13.call(ZooKeeperClient.java:833) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$13.call(ZooKeeperClient.java:827) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooWorker.syncCallWithRetries(ZooWorker.java:140) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.exists(ZooKeeperClient.java:827) ~[classes/:?]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:2281) ~[zookeeper-3.6.2.jar:3.6.2]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.access$2401(ZooKeeperClient.java:70) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$14.call(ZooKeeperClient.java:854) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient$14.call(ZooKeeperClient.java:848) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooWorker.syncCallWithRetries(ZooWorker.java:140) ~[classes/:?]
+	at org.apache.bookkeeper.zookeeper.ZooKeeperClient.exists(ZooKeeperClient.java:848) ~[classes/:?]
+	at org.apache.bookkeeper.meta.ZkLedgerUnderreplicationManager.isLedgerReplicationEnabled(ZkLedgerUnderreplicationManager.java:726) ~[classes/:?]
+	... 6 more
+22:42:12.793 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck8312694184363807333test/current : 30336929792, Used space fraction: 0.4489472 > threshold 0.001.
+22:42:13.314 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck8312694184363807333test/current : 30336819200, Used space fraction: 0.44894922 > threshold 0.001.
+22:42:13.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30336786432, Used space fraction: 0.4489498 > threshold 0.001.
+22:42:13.651 [pool-426-thread-1] ERROR org.apache.zookeeper.server.NIOServerCnxnFactory - Thread Thread[pool-426-thread-1,5,FailOnTimeoutGroup] died
+java.lang.NullPointerException: null
+	at org.apache.bookkeeper.bookie.EntryLoggerAllocator.closePreAllocateLog(EntryLoggerAllocator.java:191) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:42:13.768 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck8312694184363807333test/current : 30336786432, Used space fraction: 0.4489498 > threshold 0.001.
+22:42:14.104 [pool-433-thread-1] ERROR org.apache.zookeeper.server.NIOServerCnxnFactory - Thread Thread[pool-433-thread-1,5,FailOnTimeoutGroup] died
+java.lang.NullPointerException: null
+	at org.apache.bookkeeper.bookie.EntryLoggerAllocator.closePreAllocateLog(EntryLoggerAllocator.java:191) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:42:14.230 [Time-limited test] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck8312694184363807333test/current : 30336753664, Used space fraction: 0.4489504 > threshold 0.001.
+22:42:14.385 [LedgerDirsMonitorThread] ERROR org.apache.bookkeeper.util.DiskChecker - Space left on device /tmp/DiskCheck1855466438962005676test/current : 30336753664, Used space fraction: 0.4489504 > threshold 0.001.
+22:42:14.572 [Time-limited test] ERROR org.apache.bookkeeper.proto.BookieServer - System cannot start because current user isn't in permittedStartupUsers. Current user: ch61 permittedStartupUsers: [larry, curly, moe, , ]

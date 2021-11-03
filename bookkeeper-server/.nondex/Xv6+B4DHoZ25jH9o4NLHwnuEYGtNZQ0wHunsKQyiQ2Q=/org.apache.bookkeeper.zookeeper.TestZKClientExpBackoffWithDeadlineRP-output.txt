@@ -1,0 +1,202 @@
+22:58:07.262 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:08.885 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:10.927 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:12.866 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:14.458 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:16.375 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:17.873 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:19.840 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:21.263 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:22.611 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:24.470 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:26.286 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:27.992 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:29.733 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:31.259 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:33.388 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:34.763 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:36.506 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:37.877 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:39.754 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:41.381 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:42.696 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:44.202 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:46.400 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:54.296 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:55.587 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:56.774 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:56.982 [LearnerHandler-/127.0.0.1:57806] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:58:57.006 [LearnerHandler-/127.0.0.1:57808] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:58:58.141 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:59.132 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:58:59.480 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:00.610 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:01.714 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:02.923 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:03.467 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:03.679 [LearnerHandler-/127.0.0.1:55086] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:03.687 [LearnerHandler-/127.0.0.1:55088] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:05.251 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:05.481 [LearnerHandler-/127.0.0.1:58472] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:05.488 [LearnerHandler-/127.0.0.1:58474] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:06.762 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:06.972 [LearnerHandler-/127.0.0.1:33436] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:06.979 [LearnerHandler-/127.0.0.1:33434] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:07.978 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:09.100 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:09.309 [LearnerHandler-/127.0.0.1:41486] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:09.319 [LearnerHandler-/127.0.0.1:41484] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:10.849 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:11.053 [LearnerHandler-/127.0.0.1:42918] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:11.063 [LearnerHandler-/127.0.0.1:42916] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:12.421 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:13.662 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:14.126 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:14.775 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:15.873 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:16.330 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:16.877 [ZKC-connect-executor-0-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:17.084 [LearnerHandler-/127.0.0.1:39784] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:17.089 [LearnerHandler-/127.0.0.1:39782] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:17.844 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:18.054 [LearnerHandler-/127.0.0.1:56736] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:18.059 [LearnerHandler-/127.0.0.1:56726] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:18.825 [main-EventThread] ERROR org.apache.bookkeeper.zookeeper.ZooKeeperWatcherBase - ZooKeeper client connection to the ZooKeeper server has expired!
+22:59:18.927 [LearnerHandler-/127.0.0.1:41624] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:18.936 [LearnerHandler-/127.0.0.1:41618] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:25.357 [LearnerHandler-/127.0.0.1:41822] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:25.361 [LearnerHandler-/127.0.0.1:41814] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:25.739 [LearnerHandler-/127.0.0.1:56074] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]
+22:59:25.743 [LearnerHandler-/127.0.0.1:56076] ERROR org.apache.zookeeper.server.quorum.LearnerHandler - Unexpected exception causing shutdown while sock still open
+java.io.EOFException: null
+	at java.io.DataInputStream.readInt(DataInputStream.java:392) ~[?:1.8.0_292]
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:96) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:86) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134) ~[zookeeper-jute-3.6.2.jar:3.6.2]
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650) [zookeeper-3.6.2.jar:3.6.2]

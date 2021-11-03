@@ -1,0 +1,114 @@
+20:26:34.965 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L10 E0
+20:26:34.981 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L123 E1
+20:26:35.485 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L0 E0
+20:26:35.487 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L1 E0
+20:26:35.490 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L2 E0
+20:26:35.492 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L3 E0
+20:26:35.495 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L4 E0
+20:26:35.498 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L5 E0
+20:26:35.500 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L6 E0
+20:26:35.504 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L7 E0
+20:26:35.505 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L8 E0
+20:26:35.510 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L11 E0
+20:26:35.512 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L12 E0
+20:26:35.519 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L17 E0
+20:26:35.557 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L44 E0
+20:26:35.587 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L63 E0
+20:26:35.609 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L81 E0
+20:26:35.621 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L85 E0
+20:26:35.672 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L117 E0
+20:26:35.723 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L165 E0
+20:26:35.799 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L266 E0
+20:26:35.912 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L464 E0
+20:26:35.931 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L506 E0
+20:26:35.999 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L631 E0
+20:26:36.071 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L762 E0
+20:26:36.071 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L763 E0
+20:26:36.072 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L764 E0
+20:26:36.073 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L765 E0
+20:26:36.073 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L766 E0
+20:26:36.074 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L767 E0
+20:26:36.075 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L768 E0
+20:26:36.076 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L769 E0
+20:26:36.076 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L770 E0
+20:26:36.077 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L771 E0
+20:26:36.078 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L772 E0
+20:26:36.078 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L773 E0
+20:26:36.079 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L774 E0
+20:26:36.079 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L775 E0
+20:26:36.080 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L776 E0
+20:26:36.081 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L777 E0
+20:26:36.081 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L778 E0
+20:26:36.082 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L779 E0
+20:26:36.083 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L780 E0
+20:26:36.083 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L781 E0
+20:26:36.084 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L782 E0
+20:26:36.084 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L783 E0
+20:26:36.085 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L784 E0
+20:26:36.086 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L785 E0
+20:26:36.086 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L786 E0
+20:26:36.087 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L787 E0
+20:26:36.088 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L788 E0
+20:26:36.088 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L789 E0
+20:26:36.089 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L790 E0
+20:26:36.089 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L791 E0
+20:26:36.090 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L792 E0
+20:26:36.091 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L793 E0
+20:26:36.091 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L794 E0
+20:26:36.092 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L795 E0
+20:26:36.092 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L796 E0
+20:26:36.146 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L892 E0
+20:26:36.148 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L896 E0
+20:26:36.149 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L897 E0
+20:26:36.151 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L903 E0
+20:26:36.161 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L922 E0
+20:26:36.175 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L962 E0
+20:26:36.176 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L963 E0
+20:26:36.176 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L964 E0
+20:26:36.177 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L966 E0
+20:26:36.179 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L971 E0
+20:26:36.180 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L973 E0
+20:26:36.181 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L974 E0
+20:26:36.181 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L975 E0
+20:26:36.182 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L976 E0
+20:26:36.182 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L977 E0
+20:26:36.183 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L979 E0
+20:26:36.184 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L980 E0
+20:26:36.184 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L981 E0
+20:26:36.205 [MockLedgerManager] ERROR org.apache.bookkeeper.client.LedgerHandle - Metadata conflict when closing ledger 10. Another client may have recovered the ledger while there were writes outstanding. (local lastEntry:0 length:6)  (metadata lastEntry:1 length:106)
+20:26:36.205 [MockLedgerManager] ERROR org.apache.bookkeeper.client.MetadataUpdateLoop - UpdateLoop(ledgerId=10,loopId=2dd63553) Exception updating
+org.apache.bookkeeper.client.BKException$BKMetadataVersionException: Bad ledger metadata version
+	at org.apache.bookkeeper.client.LedgerHandle$5.lambda$safeRun$1(LedgerHandle.java:600) ~[classes/:?]
+	at org.apache.bookkeeper.client.MetadataUpdateLoop.writeLoop(MetadataUpdateLoop.java:133) ~[classes/:?]
+	at org.apache.bookkeeper.client.MetadataUpdateLoop.lambda$null$0(MetadataUpdateLoop.java:154) ~[classes/:?]
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975) ~[?:1.8.0_292]
+	at org.apache.bookkeeper.client.MetadataUpdateLoop.lambda$readLoop$2(MetadataUpdateLoop.java:196) ~[classes/:?]
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975) ~[?:1.8.0_292]
+	at org.apache.bookkeeper.meta.MockLedgerManager.lambda$null$7(MockLedgerManager.java:134) ~[test-classes/:?]
+	at org.apache.bookkeeper.meta.MockLedgerManager.executeCallback(MockLedgerManager.java:96) ~[test-classes/:?]
+	at org.apache.bookkeeper.meta.MockLedgerManager$MockitoMock$98027436.executeCallback$accessor$XJqgHMS0(Unknown Source) ~[test-classes/:?]
+	at org.apache.bookkeeper.meta.MockLedgerManager$MockitoMock$98027436$auxiliary$6TIVA6Po.call(Unknown Source) ~[test-classes/:?]
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:152) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:43) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.Answers.answer(Answers.java:100) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:103) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) ~[mockito-core-3.0.0.jar:?]
+	at org.apache.bookkeeper.meta.MockLedgerManager$MockitoMock$98027436.executeCallback(Unknown Source) ~[test-classes/:?]
+	at org.apache.bookkeeper.meta.MockLedgerManager.lambda$readLedgerMetadata$9(MockLedgerManager.java:134) ~[test-classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]

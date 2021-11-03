@@ -1,0 +1,13 @@
+org.apache.bookkeeper.tools.framework.CliTest.testNestedCommandHelpFlag
+org.apache.bookkeeper.tools.framework.CliTest.testPrintCommandUsage
+org.apache.bookkeeper.tools.framework.CliTest.testSubCommandInvalidFlags
+org.apache.bookkeeper.tools.framework.CliTest.testEmptyArgs
+org.apache.bookkeeper.tools.framework.CliTest.testHelpFlag
+org.apache.bookkeeper.tools.framework.CliTest.testNestedCommandHelpCommand
+org.apache.bookkeeper.tools.framework.CliTest.testPrintHelpSubCommandUsage
+org.apache.bookkeeper.tools.framework.CliTest.testPrintHelpCommandUsage
+org.apache.bookkeeper.tools.framework.CliTest.testNestedCommandEmptySubCommand
+org.apache.bookkeeper.tools.framework.CliTest.testPrintSubCommandUsage
+org.apache.bookkeeper.tools.framework.CliTest.testHelpCommand
+org.apache.bookkeeper.tools.framework.CliTest.testSubCommandFlags
+org.apache.bookkeeper.tools.framework.CliTest.testInvalidFlags

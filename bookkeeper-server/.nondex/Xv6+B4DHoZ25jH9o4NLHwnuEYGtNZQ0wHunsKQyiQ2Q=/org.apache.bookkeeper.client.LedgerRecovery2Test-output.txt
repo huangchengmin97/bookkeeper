@@ -1,0 +1,47 @@
+22:02:52.975 [MockLedgerManager] ERROR org.apache.bookkeeper.client.MetadataUpdateLoop - UpdateLoop(ledgerId=1,loopId=7d91efb5) Exception updating
+java.lang.IllegalStateException: Once a ledger is in recovery, noone can add ensembles without closing
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:508) ~[guava-30.0-jre.jar:?]
+	at org.apache.bookkeeper.client.ReadOnlyLedgerHandle.lambda$null$7(ReadOnlyLedgerHandle.java:320) ~[classes/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_292]
+	at org.apache.bookkeeper.client.ReadOnlyLedgerHandle.lambda$closeRecovered$8(ReadOnlyLedgerHandle.java:318) ~[classes/:?]
+	at org.apache.bookkeeper.client.MetadataUpdateLoop.writeLoop(MetadataUpdateLoop.java:134) ~[classes/:?]
+	at org.apache.bookkeeper.client.MetadataUpdateLoop.lambda$null$0(MetadataUpdateLoop.java:154) ~[classes/:?]
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975) ~[?:1.8.0_292]
+	at org.apache.bookkeeper.client.MetadataUpdateLoop.lambda$readLoop$2(MetadataUpdateLoop.java:196) ~[classes/:?]
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) ~[?:1.8.0_292]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:1975) ~[?:1.8.0_292]
+	at org.apache.bookkeeper.meta.MockLedgerManager.lambda$null$7(MockLedgerManager.java:134) ~[test-classes/:?]
+	at org.apache.bookkeeper.meta.MockLedgerManager.executeCallback(MockLedgerManager.java:96) ~[test-classes/:?]
+	at org.apache.bookkeeper.meta.MockLedgerManager$MockitoMock$1000385535.executeCallback$accessor$uJBJZqHl(Unknown Source) ~[test-classes/:?]
+	at org.apache.bookkeeper.meta.MockLedgerManager$MockitoMock$1000385535$auxiliary$ttpP9gHq.call(Unknown Source) ~[test-classes/:?]
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:152) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:43) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.Answers.answer(Answers.java:100) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:103) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49) ~[mockito-core-3.0.0.jar:?]
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108) ~[mockito-core-3.0.0.jar:?]
+	at org.apache.bookkeeper.meta.MockLedgerManager$MockitoMock$1000385535.executeCallback(Unknown Source) ~[test-classes/:?]
+	at org.apache.bookkeeper.meta.MockLedgerManager.lambda$readLedgerMetadata$9(MockLedgerManager.java:134) ~[test-classes/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_292]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_292]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_292]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
+22:02:57.016 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.LedgerHandle - Closing ledger 1 due to LedgerFencedException: Ledger has been fenced off. Some other client must have opened it to read
+22:02:57.017 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L1 E2
+22:02:57.077 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.ReadLastConfirmedOp - While readLastConfirmed ledger: 1 did not hear success responses from all quorums, QuorumCoverage(e:3,w:3,a:2) = [-1, -1, -1]
+22:02:57.093 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.ReadOnlyLedgerHandle - Could not get additional bookie to remake ensemble, closing ledger: 1
+22:02:57.093 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.PendingAddOp - Write of ledger entry to quorum failed: L1 E0
+22:02:57.093 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.LedgerRecoveryOp - Failure NotEnoughBookiesException: Not enough non-faulty bookies available while writing entry: 1 while recovering ledger: 1
+22:02:57.094 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.ReadOnlyLedgerHandle - Could not get additional bookie to remake ensemble, closing ledger: 1
+22:02:57.094 [mock-executor-OrderedScheduler-0-0] ERROR org.apache.bookkeeper.client.ReadOnlyLedgerHandle - Could not get additional bookie to remake ensemble, closing ledger: 1

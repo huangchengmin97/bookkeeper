@@ -1,0 +1,2 @@
+org.apache.bookkeeper.replication.AuditorReplicasCheckTest#testReplicasCheckForBookieHandleNotAvailable
+org.apache.bookkeeper.replication.AutoRecoveryMainTest#testAutoRecoverySessionLoss

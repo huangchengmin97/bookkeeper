@@ -1,0 +1,6 @@
+19:04:19.046 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookieClient1238492234173339793test/current/lastMark (this is okay if it is the first time starting this bookie
+19:04:19.689 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookieClient4269625221246047471test/current/lastMark (this is okay if it is the first time starting this bookie
+Return code: 0FreeDiskSpace: 30717849600 TotalCapacity: 55052673024
+19:04:19.996 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookieClient4584578202599061886test/current/lastMark (this is okay if it is the first time starting this bookie
+19:04:20.285 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bookieClient1722574954650100360test/current/lastMark (this is okay if it is the first time starting this bookie
+Return code: 0FreeDiskSpace: 30717849600 TotalCapacity: 55052673024

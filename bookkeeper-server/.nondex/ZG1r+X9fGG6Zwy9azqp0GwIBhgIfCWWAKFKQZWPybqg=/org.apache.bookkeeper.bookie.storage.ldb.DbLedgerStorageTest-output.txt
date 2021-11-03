@@ -1,0 +1,12 @@
+19:28:05.579 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bkTest6202846540383744498.dir/current/lastMark (this is okay if it is the first time starting this bookie
+19:28:06.042 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bkTest6404543762303257249.dir/current/lastMark (this is okay if it is the first time starting this bookie
+19:28:06.181 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bkTest880908095883059833.dir/current/lastMark (this is okay if it is the first time starting this bookie
+19:28:06.470 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bkTest4743810885158940489.dir/current/lastMark (this is okay if it is the first time starting this bookie
+res:       000000000000000400000000000000036e65772d656e7472792d33
+newEntry3: 000000000000000400000000000000036e65772d656e7472792d33
+19:28:06.674 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bkTest8083074830141677953.dir/current/lastMark (this is okay if it is the first time starting this bookie
+19:28:06.899 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bkTest6317536007059074387.dir/current/lastMark (this is okay if it is the first time starting this bookie
+19:28:07.128 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bkTest8009297813882868726.dir/current/lastMark (this is okay if it is the first time starting this bookie
+19:28:07.354 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bkTest341718837647692729.dir/current/lastMark (this is okay if it is the first time starting this bookie
+19:28:07.467 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bkTest341718837647692729.dir/dir1/current/lastMark (this is okay if it is the first time starting this bookie
+19:28:07.467 [main] ERROR org.apache.bookkeeper.bookie.Journal - Problems reading from /tmp/bkTest341718837647692729.dir/dir2/current/lastMark (this is okay if it is the first time starting this bookie
